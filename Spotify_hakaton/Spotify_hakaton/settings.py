@@ -37,6 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'rest_framework.authtoken',
+    'drf_yasg',
+    # my apps
+    'main'
 ]
 
 MIDDLEWARE = [
@@ -47,10 +52,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'main',
-    'rest_framework',
-    'rest_framework.authtoken',
-    'drf_yasg',
 ]
 
 ROOT_URLCONF = 'Spotify_hakaton.urls'
@@ -81,7 +82,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'spotify_hakaton',
-        'USER': 'aliyar',
+        'USER': 'akjol',
         'PASSWORD': '1',
         'HOST': 'localhost',
         'PORT': 5432
