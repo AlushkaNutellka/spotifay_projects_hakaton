@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'account',
     'drf_yasg',
+    'main',
+    'music'
 ]
 
 MIDDLEWARE = [
@@ -84,7 +86,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'spotify_db',
-        'USER': 'aliyar',
+        'USER': 'akjol',
         'PASSWORD': '1',
         'HOST': 'localhost',
         'PORT': 5432
