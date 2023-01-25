@@ -238,3 +238,1166 @@ Not Found: /
 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
 "GET /admin/account/user/?is_staff__exact=0 HTTP/1.1" 200 6751
 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2176
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2227
+Not Found: /account
+"GET /account HTTP/1.1" 404 2215
+Not Found: /account/
+"GET /account/ HTTP/1.1" 404 2299
+Internal Server Error: /account/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /account/swagger/ HTTP/1.1" 500 105193
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2176
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/Spotify_hakaton/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2249
+Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /swagger/ HTTP/1.1" 500 105057
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/Spotify_hakaton/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/account/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/account/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/account/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2172
+Not Found: /main/
+"GET /main/ HTTP/1.1" 404 2286
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/account/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/account/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/account/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/account/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/account/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/account/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/account/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2172
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/Spotify_hakaton/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2173
+Not Found: /MAIN
+"GET /MAIN HTTP/1.1" 404 2203
+Not Found: /main/
+"GET /main/ HTTP/1.1" 404 3439
+"GET /main/register HTTP/1.1" 301 0
+Method Not Allowed: /main/register/
+"GET /main/register/ HTTP/1.1" 405 5624
+"GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+"GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+Not Found: /main/
+"GET /main/ HTTP/1.1" 404 3439
+"GET /main/activate HTTP/1.1" 301 0
+Method Not Allowed: /main/activate/
+"GET /main/activate/ HTTP/1.1" 405 5614
+Not Found: /main/
+"GET /main/ HTTP/1.1" 404 3439
+Method Not Allowed: /main/forgot_password/
+"GET /main/forgot_password/ HTTP/1.1" 405 5667
+Not Found: /main/
+"GET /main/ HTTP/1.1" 404 3439
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105162
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/account/permissoins.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2173
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105162
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/account/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105299
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/account/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/account/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105225
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105225
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/account/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/account/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/account/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/account/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/account/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105225
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105225
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/account/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105225
+Watching for file changes with StatReloader
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105225
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105225
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105225
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105225
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105225
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105225
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105225
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105225
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2173
+Not Found: /main/swager/
+"GET /main/swager/ HTTP/1.1" 404 3460
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105088
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2173
+Not Found: /main/
+"GET /main/ HTTP/1.1" 404 3439
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105409
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105135
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/account/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105272
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105272
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105272
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/account/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105272
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105272
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105272
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105272
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105272
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105272
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105272
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105272
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105272
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/account/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105010
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105010
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105010
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105010
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105010
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105010
+Internal Server Error: /main/swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /main/swagger/ HTTP/1.1" 500 105010
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/Spotify_hakaton/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/Spotify_hakaton/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/account/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2307
+Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /swagger/ HTTP/1.1" 500 105050
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/Spotify_hakaton/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py", line 226, in get_schema
+    raise NotImplementedError(".get_schema() must be implemented in subclasses.")
+NotImplementedError: .get_schema() must be implemented in subclasses.
+"GET /swagger/ HTTP/1.1" 500 105187
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/Spotify_hakaton/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/Spotify_hakaton/Spotify_hakaton/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /swagger/ HTTP/1.1" 200 2154
+"GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+"GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 14964
+"GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 143858
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 324275
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1086481
+"GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+"GET /swagger/?format=openapi HTTP/1.1" 200 4642
+"GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628

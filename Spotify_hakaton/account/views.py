@@ -1,6 +1,7 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from .serializers import ChangePasswordSerializer, ForgotPasswordCompleteSerializer, ForgotPaswordSerializer, RegistrationSerializer, LoginSerializer, ActivationSerializer
+from .serializers import ChangePasswordSerializer, ForgotPasswordCompleteSerializer, ForgotPaswordSerializer, \
+    RegistrationSerializer, LoginSerializer, ActivationSerializer
 from rest_framework.authtoken.views import ObtainAuthToken
 from rest_framework.authtoken.models import Token
 from .permissoins import IsActivePermission
@@ -28,12 +29,11 @@ class ActivationView(APIView):
 
 
 class LoginView(ObtainAuthToken):
-    request_body=RegistrationSerializer()
+    request_body = RegistrationSerializer()
     serializer_class = LoginSerializer
 
 
 class LogoutView(APIView):
-
     permission_classes = [IsActivePermission]
 
     def post(self, request):
@@ -43,12 +43,11 @@ class LogoutView(APIView):
 
 
 class ChangePasswordView(APIView):
-
     permission_classes = [IsAuthenticated]
 
     @swagger_auto_schema(request_body=ChangePasswordSerializer())
     def post(self, request):
-        serializer = ChangePasswordSerializer(data=request.data, context={'request':request})
+        serializer = ChangePasswordSerializer(data=request.data, context={'request': request})
 
         if serializer.is_valid(raise_exception=True):
             serializer.set_new_password()
@@ -61,7 +60,7 @@ class ForgotPasswordView(APIView):
     @swagger_auto_schema(request_body=ForgotPaswordSerializer())
     def post(self, request):
         serializer = ForgotPaswordSerializer(data=request.data)
-        
+
         if serializer.is_valid(raise_exception=True):
             serializer.send_verification_email()
 
@@ -77,5 +76,3 @@ class ForgotPasswordCompleteView(APIView):
         if serializer.is_valid(raise_exception=True):
             serializer.set_new_password()
             return Response('Пароль успешно изменён')
-
-

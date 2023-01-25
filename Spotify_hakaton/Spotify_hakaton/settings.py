@@ -45,7 +45,9 @@ INSTALLED_APPS = [
     'account',
     'drf_yasg',
     'main',
-    'music'
+    'music',
+    'drf_yasg2',
+
 ]
 
 MIDDLEWARE = [
@@ -85,8 +87,8 @@ WSGI_APPLICATION = 'Spotify_hakaton.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'spotify_db',
-        'USER': 'akjol',
+        'NAME': 'spotifydb',
+        'USER': 'aliyar',
         'PASSWORD': '1',
         'HOST': 'localhost',
         'PORT': 5432
@@ -136,7 +138,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-SWAGGER_SETTINGS = { "DEFAULT_GENERATOR_CLASS": "rest_framework.schemas.generators.BaseSchemaGenerator", }
+
 
 
 REST_FRAMEWORK = {
