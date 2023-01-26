@@ -24,17 +24,17 @@ class MusicInfo(models.Model):
             self.slug = slugify(self.title)
         super().save(*args, **kwargs)
 
-    def avg_rating(self):
-        from django.db.models import Avg
-        result = self.rating.aggregate(Avg('rating'))
-        return result['rating__avg']
+    # def avg_rating(self):
+    #     from django.db.models import Avg
+    #     result = self.rating.aggregate(Avg('rating'))
+    #     return result['rating__avg']
 
     class Meta:
         ordering = ['-created_at']
 
 
 class Comment(models.Model):
-    comment = models.CharField(max_length=30)
+    comment = models.TextField(blank=True)
     post = models.ForeignKey(MusicInfo, on_delete=models.CASCADE, related_name='comments')
     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='comments')
 
@@ -72,3 +72,7 @@ class Like(models.Model):
 
     def __str__(self) -> str:
         return f'{self.like} Liked by {self.author.name}'
+
+
+# class Image(models.Model):
+#     image = models.ImageField(upload_to='posts/', blank=True)

@@ -1,4 +1,6 @@
-from django.shortcuts import render
+import os.path
+
+from django.shortcuts import render, get_object_or_404
 from rest_framework import generics
 from drf_yasg.utils import swagger_auto_schema
 
@@ -11,6 +13,8 @@ from rest_framework.viewsets import ModelViewSet
 from rest_framework.permissions import AllowAny
 from rest_framework.decorators import action
 from rest_framework.response import Response
+from rest_framework.views import APIView
+from django.db import models
 
 
 class MusicViewSet(ModelViewSet):
@@ -18,7 +22,7 @@ class MusicViewSet(ModelViewSet):
     serializer_class = PostSerializer
     filter_backends = [django_filters.rest_framework.DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter]
     # filterset_fields = ['category']
-    search_fields = ['_slug', 'created_at']
+    search_fields = ['slug', 'created_at']
     ordering_fields = ['created_at', 'title']
 
     # api/v1/posts/pk(post1)/comments
@@ -101,3 +105,36 @@ class CommentView(ModelViewSet):
             self.permission_classes = [IsAuthorPermission]
 
         return super().get_permissions()
+
+
+# class ImageView(ModelViewSet):
+#     queryset = Image.objects.all()
+#     serializer_class = ImageSerializer
+#
+#     def get_permissions(self):
+#         if self.action in ['list', 'retrieve']:
+#             self.permission_classes = [AllowAny]
+#
+#         elif self.action == 'create':
+#             self.permission_classes = [IsAdminAuthPermission]
+#
+#         elif self.action in ['update', 'partial_update', 'destroy']:
+#             self.permission_classes = [IsAuthorPermission]
+#
+#         return super().get_permissions()
+from django.http import FileResponse, Http404
+
+
+class StreamFileView(APIView):
+
+    def set_play(self, track):
+        track.plays.count += 1
+        track.save()
+
+    def get(self, request, pk):
+        track = get_object_or_404(MusicInfo, id=pk)
+        if os.path.exists(track.file.path):
+            self.set_play(track)
+            return FileResponse(open(track.file.path, 'rb'), filename=track.file.name)
+        else:
+            return Http404
