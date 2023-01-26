@@ -1609,3 +1609,134 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 "GET /admin/music/like/add/ HTTP/1.1" 200 9975
 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Watching for file changes with StatReloader
+"GET /admin/music/like/add/ HTTP/1.1" 200 9975
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/music/like/add/ HTTP/1.1" 302 0
+"GET /admin/music/like/ HTTP/1.1" 200 9194
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/music/like/ HTTP/1.1" 200 6529
+"GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+"POST /admin/music/like/ HTTP/1.1" 302 0
+"GET /admin/music/like/ HTTP/1.1" 200 8768
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/auth/group/ HTTP/1.1" 200 6811
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/auth/group/add/ HTTP/1.1" 200 11600
+"GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+"GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-unknown.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 304 0
+"GET /static/admin/img/selector-icons.svg HTTP/1.1" 304 0
+"POST /admin/auth/group/add/ HTTP/1.1" 302 0
+"GET /admin/auth/group/ HTTP/1.1" 200 8154
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 6447
+"GET /admin/authtoken/tokenproxy/add/ HTTP/1.1" 200 8129
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/authtoken/tokenproxy/add/ HTTP/1.1" 302 0
+"GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 7779
+"GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 7516
+"GET /admin/authtoken/tokenproxy/?o= HTTP/1.1" 200 7326
+"GET /admin/authtoken/tokenproxy/?o=2 HTTP/1.1" 200 7566
+"GET /admin/account/user/ HTTP/1.1" 200 8963
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 7516
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 8978
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/musicinfo/add/ HTTP/1.1" 200 19798
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/auth/group/ HTTP/1.1" 200 7956
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/auth/group/?q=Akjol HTTP/1.1" 200 7459
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/auth/group/?q=%D0%90%D0%BA%D0%B6%D0%BE%D0%BB HTTP/1.1" 200 8122
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/auth/group/?q=%D0%90%D0%BA%D0%B6%D0%BE HTTP/1.1" 200 8100
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/auth/group/?q=%D0%90%D0%B4 HTTP/1.1" 200 7473
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/auth/group/?q=%D0%90 HTTP/1.1" 200 8034
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/like/ HTTP/1.1" 200 8634
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/like/2/change/ HTTP/1.1" 200 10258
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 8978
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 7516
+"GET /admin/authtoken/tokenproxy/akzholkanaev81_40gmail.com/change/ HTTP/1.1" 200 8527
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/authtoken/tokenproxy/akzholkanaev81_40gmail.com/delete/ HTTP/1.1" 200 6576
+"POST /admin/authtoken/tokenproxy/akzholkanaev81_40gmail.com/delete/ HTTP/1.1" 302 0
+"GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 6635
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 8978
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/musicinfo/add/ HTTP/1.1" 200 19798
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/music/musicinfo/add/ HTTP/1.1" 200 20086
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/rating/ HTTP/1.1" 200 7082
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/rating/add/ HTTP/1.1" 200 10359
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/music/rating/add/ HTTP/1.1" 302 0
+"GET /admin/music/rating/ HTTP/1.1" 200 9086
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 9268
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/musicinfo/add/ HTTP/1.1" 200 20086
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/like/ HTTP/1.1" 200 8922
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 9268
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/rating/ HTTP/1.1" 200 8882
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/rating/add/ HTTP/1.1" 200 10359
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/account/user/ HTTP/1.1" 200 9251
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/account/user/add/ HTTP/1.1" 200 10833
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+"GET /admin/account/user/ HTTP/1.1" 200 9251
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/account/user/akzholkanaev81_40gmail.com/change/ HTTP/1.1" 200 11370
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/auth/group/ HTTP/1.1" 200 8244
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/like/ HTTP/1.1" 200 8922
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 9268
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/musicinfo/add/ HTTP/1.1" 200 20086
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/music/musicinfo/add/ HTTP/1.1" 200 20086
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/music/like/ HTTP/1.1" 200 8922
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/like/2/change/ HTTP/1.1" 200 10546
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/music/like/2/change/ HTTP/1.1" 200 10838
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/comment/ HTTP/1.1" 200 7682
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/comment/add/ HTTP/1.1" 200 10666
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
