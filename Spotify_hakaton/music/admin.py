@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import MusicInfo, Rating
+from .models import MusicInfo, Rating, Like
 
 
 class RatingInline(admin.TabularInline):
@@ -19,3 +19,10 @@ class PostAdmin(admin.ModelAdmin):
         from django.db.models import Avg
         result = obj.ratings.aggregate(Avg('rating'))
         return result['rating__avg']
+
+@admin.register(Like)
+class LikeAdmin(admin.ModelAdmin):
+    list_display = ('author', 'like', 'is_liked')
+    search_fields = ['author', 'like']
+    ordering = ['-is_liked']
+    list_filter = ['author']

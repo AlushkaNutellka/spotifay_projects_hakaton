@@ -64,10 +64,10 @@ class Like(models.Model):
     author = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name='likes'
     )
-    post = models.ForeignKey(
+    like = models.ForeignKey(
         MusicInfo, on_delete=models.CASCADE, related_name='likes'
     )
     is_liked = models.BooleanField(default=False)
 
     def __str__(self) -> str:
-        return f'{self.post} Liked by {self.author.name}'
+        return f'{self.like} Liked by {self.author.name}'
