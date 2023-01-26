@@ -74,5 +74,18 @@ class Like(models.Model):
         return f'{self.like} Liked by {self.author.name}'
 
 
+class Favorite(models.Model):
+    author = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name='favorites'
+    )
+    favorite = models.ForeignKey(
+        MusicInfo, on_delete=models.CASCADE, related_name='favorites'
+    )
+    is_favorite = models.BooleanField(default=False)
+
+    def __str__(self) -> str:
+        return f'{self.favorite} favorite by {self.author.name}'
+
+
 # class Image(models.Model):
 #     image = models.ImageField(upload_to='posts/', blank=True)

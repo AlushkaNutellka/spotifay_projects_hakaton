@@ -5,7 +5,7 @@ from rest_framework import generics
 from drf_yasg.utils import swagger_auto_schema
 
 from .permissions import IsAdminAuthPermission, IsAuthorPermission
-from .models import MusicInfo, Comment, Like, Rating
+from .models import MusicInfo, Comment, Like, Rating, Favorite
 from .serializers import PostSerializer, PostListSerializer, CommentSerializer, RatingSerializer
 import django_filters
 from rest_framework import filters
@@ -70,6 +70,22 @@ class MusicViewSet(ModelViewSet):
         except Like.DoesNotExist:
             Like.objects.create(post=post, author=user, is_liked=True)
             message = 'liked'
+        return Response(message, status=200)
+
+    @action(['POST'], detail=True)
+    def favorite(self, request, pk=None):
+        post = self.get_object()
+        user = request.user
+        try:
+            favorite = Favorite.objects.get(post=post, author=user)
+            favorite.is_favorite = not favorite.is_favorite
+            favorite.save()
+            message = 'favorite' if favorite.is_favorite else 'not favorite'
+            if not favorite.is_favorite:
+                favorite.delete()
+        except Favorite.DoesNotExist:
+            Favorite.objects.create(post=post, author=user, is_favorite=True)
+            message = 'favorite'
         return Response(message, status=200)
 
     def get_serializer_class(self):
