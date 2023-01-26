@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import MusicInfo, Rating, Like, Comment
+from .models import MusicInfo, Rating, Like, Comment, Favorite
 from django.utils.safestring import mark_safe
 
 
@@ -51,6 +51,13 @@ class CommentAdmin(admin.ModelAdmin):
     search_fields = ['comment', 'author']
     ordering = ['-created_at']
     list_filter = ['comment']
+
+@admin.register(Favorite)
+class FavoriteAdmin(admin.ModelAdmin):
+    list_display = ('author', 'favorite', 'is_favorite')
+    search_fields = ['author', 'favorite']
+    ordering = ['-is_favorite']
+    list_filter = ['author']
 
 
 # class ImageAdmin(admin.TabularInline):

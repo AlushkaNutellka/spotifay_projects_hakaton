@@ -116,7 +116,6 @@ class ChangePasswordSerializer(serializers.Serializer):
         user = self.context.get('request').user
         user.set_password(new_pass)
         user.save()
-
 class ForgotPaswordSerializer(serializers.Serializer):
     email = serializers.EmailField(required=True)
 
