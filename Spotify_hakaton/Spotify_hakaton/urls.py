@@ -17,5 +17,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('spotify/', include('music.urls')),
     path('docs/', schema_view.with_ui('swagger')),
-    path('spotify/', include('account.urls')),
+    path('account/', include('account.urls')),
 ]

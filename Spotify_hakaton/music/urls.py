@@ -1,5 +1,5 @@
 from django.urls import path, include
-from .views import MusicViewSet, CommentView, StreamFileView
+from .views import MusicViewSet, CommentView, StreamingFileAuthorView
 from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
@@ -9,6 +9,6 @@ router.register('comment', CommentView)
 
 
 urlpatterns = [
-    path('', include(router.urls)),
-    path('stream-track/', StreamFileView.as_view())
+    path('twoandone/', include(router.urls)),
+    path('stream-track/', StreamingFileAuthorView.as_view())
 ]

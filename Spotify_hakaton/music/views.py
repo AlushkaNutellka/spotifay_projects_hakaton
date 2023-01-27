@@ -33,6 +33,8 @@ class MusicViewSet(ModelViewSet):
         serializer = CommentSerializer(comments, many=True)
         return Response(serializer.data)
 
+    # @action(['POST'], detail=True)
+
     @action(['POST', 'PATCH'], detail=True)
     def rating(self, request, pk=None):
         data = request.data.copy()
@@ -106,6 +108,12 @@ class CommentView(ModelViewSet):
 
         return super().get_permissions()
 
+    def get_queryset(self):
+        return models.Comment.objects.filter(user=self.request.user)
+
+    def perform_create(self, serializer):
+        serializer.save(user=self.request.user)
+
 
 # class ImageView(ModelViewSet):
 #     queryset = Image.objects.all()
@@ -122,19 +130,19 @@ class CommentView(ModelViewSet):
 #             self.permission_classes = [IsAuthorPermission]
 #
 #         return super().get_permissions()
-from django.http import FileResponse, Http404
+from django.http import HttpResponse, Http404
 
 
-class StreamFileView(APIView):
+class StreamingFileAuthorView(APIView):
+    """ Воспроизведение трека автора
+    """
+    permission_classes = [MusicInfo]
 
-    def set_play(self, track):
-        track.plays.count += 1
-        track.save()
-
-    def get(self, request, pk):
-        track = get_object_or_404(MusicInfo, id=pk)
-        if os.path.exists(track.file.path):
-            self.set_play(track)
-            return FileResponse(open(track.file.path, 'rb'), filename=track.file.name)
+    def get(self, request):
+        self.track = get_object_or_404(models.Track, user=request.user)
+        if os.path.exists(self.track.file.path):
+            response = HttpResponse('', content_type="audio/mpeg", status=206)
+            response['X-Accel-Redirect'] = f"/mp3/{self.track.file.name}"
+            return response
         else:
             return Http404
