@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import MusicInfo, Rating, Like, Comment
+from .models import MusicInfo, Rating, Like, Comment, Basket
 from django.utils.safestring import mark_safe
 
 
@@ -61,3 +61,10 @@ class CommentAdmin(admin.ModelAdmin):
 #         return mark_safe(f'<img src="{obj.image.url}" width="60" height="60" />')
 #
 #     get_image.short_description = 'Картинка'
+
+@admin.register(Basket)
+class BasketAdmin(admin.ModelAdmin):
+    list_display = ('basket',)
+    search_fields = ['basket', 'author']
+    # ordering = ['-created_at']
+    list_filter = ['basket']

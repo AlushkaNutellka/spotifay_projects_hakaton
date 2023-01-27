@@ -2541,3 +2541,103 @@ Not Found: /posts/DSCF8337_oTYeeZl.JPG
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/music/musicinfo/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/music/musicinfo/ HTTP/1.1" 200 2247
+Watching for file changes with StatReloader
+"POST /admin/login/?next=/admin/music/musicinfo/ HTTP/1.1" 302 0
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 7976
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/basket/ HTTP/1.1" 200 7653
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/basket/add/ HTTP/1.1" 200 8957
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/music/basket/add/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1808, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 924, in log_addition
+    object_repr=str(obj),
+  File "/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/models.py", line 83, in __str__
+    return self.basket.title
+AttributeError: 'User' object has no attribute 'title'
+"POST /admin/music/basket/add/ HTTP/1.1" 500 119571
+"GET /admin/music/basket/add/ HTTP/1.1" 200 8957
+Internal Server Error: /admin/music/basket/add/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1808, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 924, in log_addition
+    object_repr=str(obj),
+  File "/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/models.py", line 83, in __str__
+    return self.basket.title
+AttributeError: 'User' object has no attribute 'title'
+"POST /admin/music/basket/add/ HTTP/1.1" 500 119571
+"GET /admin/music/basket/add/ HTTP/1.1" 200 8957
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 7976
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/musicinfo/add/ HTTP/1.1" 200 20567
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/music/musicinfo/add/ HTTP/1.1" 200 20753
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/music/musicinfo/add/ HTTP/1.1" 302 0
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 10394
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/basket/ HTTP/1.1" 200 7653
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/basket/add/ HTTP/1.1" 200 8957
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/music/basket/add/ HTTP/1.1" 200 8957
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/music/basket/add/ HTTP/1.1" 302 0
+"GET /admin/music/basket/ HTTP/1.1" 200 9033
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/basket/3/change/ HTTP/1.1" 200 9187
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/basket/ HTTP/1.1" 200 8837
+Watching for file changes with StatReloader
+"GET /admin/music/basket/ HTTP/1.1" 200 8837
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Watching for file changes with StatReloader

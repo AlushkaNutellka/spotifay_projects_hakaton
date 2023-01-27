@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import MusicInfo, Comment, Rating
+from .models import MusicInfo, Comment, Rating, Basket
 from django.db.models import Avg
 
 
@@ -100,3 +100,30 @@ class RatingSerializer(serializers.ModelSerializer):
 #     class Meta:
 #         model = Image
 #         fields = ['image']
+
+class BasketSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Basket
+        fields = 'all'
+
+    def create(self, validated_data):
+        request = self.context.get('request')
+        user = request.user
+        basket = Basket.objects.create(**validated_data)
+        return basket
+
+    def validate_product(self, product):
+        if self.Meta.model.objects.filter(product=product).exists():
+            raise serializers.ValidationError('Такой продукт уже сушествует в корзине')
+        return product
+
+    def update(self, instance, validated_data):
+        instance.basket = validated_data.get('basket')
+        instance.save()
+        return super().update(instance, validated_data)
+
+    def delete(self, instance, validated_data):
+        instance.basket = validated_data.get('basket')
+        instance.save()
+        return validated_data.pop(instance.basket)

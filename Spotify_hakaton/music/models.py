@@ -74,5 +74,17 @@ class Like(models.Model):
         return f'{self.like} Liked by {self.author.name}'
 
 
+class Basket(models.Model):
+    basket = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name='basket'
+    )
+
+    def __str__(self):
+        return self.basket.nime
+
+
+
 # class Image(models.Model):
 #     image = models.ImageField(upload_to='posts/', blank=True)
+
+

@@ -5,8 +5,8 @@ from rest_framework import generics
 from drf_yasg.utils import swagger_auto_schema
 
 from .permissions import IsAdminAuthPermission, IsAuthorPermission
-from .models import MusicInfo, Comment, Like, Rating
-from .serializers import PostSerializer, PostListSerializer, CommentSerializer, RatingSerializer
+from .models import MusicInfo, Comment, Like, Rating, Basket
+from .serializers import PostSerializer, PostListSerializer, CommentSerializer, RatingSerializer, BasketSerializer
 import django_filters
 from rest_framework import filters
 from rest_framework.viewsets import ModelViewSet
@@ -146,3 +146,9 @@ class StreamingFileAuthorView(APIView):
             return response
         else:
             return Http404
+
+
+class BasketView(ModelViewSet):
+    queryset = Basket.objects.all()
+    serializer_class = BasketSerializer
+
