@@ -1,102 +1,111 @@
-from rest_framework import serializers
+from django.contrib.auth import get_user_model
+from django.db import models
+from slugify import slugify
 
-from .models import MusicInfo, Comment, Rating
-from django.db.models import Avg
-
-
-class PostSerializer(serializers.ModelSerializer):
-    author = serializers.ReadOnlyField(source='author.name')
-
-    class Meta:
-        model = MusicInfo
-        fields = '__all__'
-
-    def validate_title(self, title):
-        if self.Meta.model.objects.filter(title=title).exists():
-            raise serializers.ValidationError('Такой заголовок уже существует')
-        return title
-
-    def create(self, validated_data):
-        request = self.context.get('request')
-        user = request.user
-        tags = validated_data.pop('tags', [])
-        post = MusicInfo.objects.create(author=user, **validated_data)
-        post.tags.add(*tags)
-        return post
-
-    def to_representation(self, instance):
-        representation = super().to_representation(instance)
-        representation['comments'] = CommentSerializer(
-            Comment.objects.filter(post=instance.pk),
-            many=True
-        ).data
-        representation['ratings'] = instance.ratings.aggregate(Avg('rating'))['rating__avg']
-        # obj = Like.objects.filter(is_liked=True)
-        representation['likes_count'] = instance.likes.count()
-        return representation
+User = get_user_model()
 
 
-class PostListSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = MusicInfo
-        fields = ['title', 'slug', 'image', 'music', 'created_at']
+class MusicInfo(models.Model):
+    author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='posts')
+    title = models.CharField(max_length=30)
+    body = models.TextField()
+    music = models.FileField(upload_to='music_inst/', blank=True)
+    image = models.ImageField(upload_to='posts/', blank=True)
+    slug = models.SlugField(max_length=30, primary_key=True, blank=True)
 
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
 
-class CommentSerializer(serializers.ModelSerializer):
-    author = serializers.ReadOnlyField(source='author.name')
+    def __str__(self) -> str:
+        return self.title
 
-    def create(self, validated_data):
-        request = self.context.get('request')
-        user = request.user
-        comment = Comment.objects.create(author=user, **validated_data)
-        return comment
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            self.slug = slugify(self.title)
+        super().save(*args, **kwargs)
+
+    # def avg_rating(self):
+    #     from django.db.models import Avg
+    #     result = self.rating.aggregate(Avg('rating'))
+    #     return result['rating__avg']
 
     class Meta:
-        model = Comment
-        fields = '__all__'
+        ordering = ['-created_at']
 
 
-class CommentSerializer(serializers.ModelSerializer):
-    author = serializers.ReadOnlyField(source='author.name')
+class Comment(models.Model):
+    comment = models.TextField(blank=True)
+    post = models.ForeignKey(MusicInfo, on_delete=models.CASCADE, related_name='comments')
+    author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='comments')
 
-    def create(self, validated_data):
-        request = self.context.get('request')
-        user = request.user
-        comment = Comment.objects.create(author=user, **validated_data)
-        return comment
+    created_at = models.DateTimeField(auto_now_add=True)
+    update_at = models.DateTimeField(auto_now_add=True)
 
     class Meta:
-        model = Comment
-        fields = '__all__'
+        ordering = ['-created_at']
+
+    def __str__(self) -> str:
+        return self.comment
 
 
-class RatingSerializer(serializers.ModelSerializer):
-    author = serializers.ReadOnlyField(source='author.name')
+class Rating(models.Model):
+    author = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name='ratings'
+    )
+    rating = models.PositiveSmallIntegerField()
+    post = models.ForeignKey(
+        MusicInfo, on_delete=models.CASCADE, related_name='ratings'
+    )
+
+    def __str__(self) -> str:
+        return f'{self.rating} -> {self.post}'
+
+
+class Like(models.Model):
+    author = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name='likes'
+    )
+    like = models.ForeignKey(
+        MusicInfo, on_delete=models.CASCADE, related_name='likes'
+    )
+    is_liked = models.BooleanField(default=False)
+
+    def __str__(self) -> str:
+        return f'{self.like} Liked by {self.author.name}'
+
+
+class Basket(models.Model):
+    basket = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name='basket'
+    )
+
+    def __str__(self):
+        return self.basket.nime
+
+
+class Image(models.Model):
+    title = models.CharField(max_length=30)
+
+    author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='title')
+
+    image = models.ImageField(upload_to='posts/', blank=True)
+
+
+class Vip(models.Model):
+    author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='money')
+
+    money = models.IntegerField()
+
+    created_at = models.DateTimeField(auto_now_add=True)
+    update_at = models.DateTimeField(auto_now_add=True)
 
     class Meta:
-        model = Rating
-        fields = ['id', 'rating', 'author', 'post']
+        ordering = ['-created_at']
 
-    def create(self, validated_data):
-        request = self.context.get('request')
-        user = request.user
-        rating = Rating.objects.create(author=user, **validated_data)
-        return rating
+    # def __str__(self) -> str:
+    #     return self.money
 
-    def update(self, instance, validated_data):
-        instance.rating = validated_data.get('rating')
-        instance.save()
-        return super().update(instance, validated_data)
-
-    def validate_rating(self, rating):
-        if rating not in range(1, 6):
-            raise serializers.ValidationError(
-                'Рейтинг должен быть от 1 до 5'
-            )
-        return rating
-
-
-# class ImageSerializer(serializers.ModelSerializer):
-#     class Meta:
-#         model = Image
-#         fields = ['image']
+    def save(self, *args, **kwargs):
+        if not self.money:
+            self.slug = slugify(self.title)
+        super().save(*args, **kwargs)

@@ -5,8 +5,8 @@ from rest_framework import generics
 from drf_yasg.utils import swagger_auto_schema
 
 from .permissions import IsAdminAuthPermission, IsAuthorPermission
-from .models import MusicInfo, Comment, Like, Rating, Favorite
-from .serializers import PostSerializer, PostListSerializer, CommentSerializer, RatingSerializer
+from .models import MusicInfo, Comment, Like, Rating, Basket, Vip
+from .serializers import PostSerializer, PostListSerializer, CommentSerializer, RatingSerializer, BasketSerializer, VipSerializer
 import django_filters
 from rest_framework import filters
 from rest_framework.viewsets import ModelViewSet
@@ -32,6 +32,8 @@ class MusicViewSet(ModelViewSet):
         comments = post.comments.all()
         serializer = CommentSerializer(comments, many=True)
         return Response(serializer.data)
+
+    # @action(['POST'], detail=True)
 
     @action(['POST', 'PATCH'], detail=True)
     def rating(self, request, pk=None):
@@ -72,22 +74,6 @@ class MusicViewSet(ModelViewSet):
             message = 'liked'
         return Response(message, status=200)
 
-    @action(['POST'], detail=True)
-    def favorite(self, request, pk=None):
-        post = self.get_object()
-        user = request.user
-        try:
-            favorite = Favorite.objects.get(post=post, author=user)
-            favorite.is_favorite = not favorite.is_favorite
-            favorite.save()
-            message = 'favorite' if favorite.is_favorite else 'not favorite'
-            if not favorite.is_favorite:
-                favorite.delete()
-        except Favorite.DoesNotExist:
-            Favorite.objects.create(post=post, author=user, is_favorite=True)
-            message = 'favorite'
-        return Response(message, status=200)
-
     def get_serializer_class(self):
         if self.action == 'list':
             return PostListSerializer
@@ -109,6 +95,17 @@ class MusicViewSet(ModelViewSet):
 class CommentView(ModelViewSet):
     queryset = Comment.objects.all()
     serializer_class = CommentSerializer
+    filter_backends = [django_filters.rest_framework.DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter]
+
+    search_fields = ['comment', 'created_at']
+    ordering_fields = ['created_at', 'comment']
+
+    @action(['GET'], detail=True)
+    def comments(self, request, pk=None):
+        post = self.get_object()
+        comments = post.comments.all()
+        serializer = CommentSerializer(comments, many=True)
+        return Response(serializer.data)
 
     def get_permissions(self):
         if self.action in ['list', 'retrieve']:
@@ -121,6 +118,12 @@ class CommentView(ModelViewSet):
             self.permission_classes = [IsAuthorPermission]
 
         return super().get_permissions()
+
+    def get_queryset(self):
+        return models.Comment.objects.filter(user=self.request.user)
+
+    def perform_create(self, serializer):
+        serializer.save(user=self.request.user)
 
 
 # class ImageView(ModelViewSet):
@@ -138,19 +141,30 @@ class CommentView(ModelViewSet):
 #             self.permission_classes = [IsAuthorPermission]
 #
 #         return super().get_permissions()
-from django.http import FileResponse, Http404
+from django.http import HttpResponse, Http404
 
 
-class StreamFileView(APIView):
+class StreamingFileAuthorView(APIView):
+    """ Воспроизведение трека автора
+    """
+    permission_classes = [MusicInfo]
 
-    def set_play(self, track):
-        track.plays.count += 1
-        track.save()
-
-    def get(self, request, pk):
-        track = get_object_or_404(MusicInfo, id=pk)
-        if os.path.exists(track.file.path):
-            self.set_play(track)
-            return FileResponse(open(track.file.path, 'rb'), filename=track.file.name)
+    def get(self, request):
+        self.music = get_object_or_404(models.Track, user=request.user)
+        if os.path.exists(self.music.file.path):
+            response = HttpResponse('', content_type="audio/mpeg", status=206)
+            response['X-Accel-Redirect'] = f"/mp3/{self.music.file.name}"
+            return response
         else:
             return Http404
+
+
+class BasketView(ModelViewSet):
+    queryset = Basket.objects.all()
+    serializer_class = BasketSerializer
+
+
+class VipView(ModelViewSet):
+    queryset = Vip.objects.all()
+    serializer_class = VipSerializer
+

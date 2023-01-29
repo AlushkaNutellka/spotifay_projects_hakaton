@@ -2226,3 +2226,893 @@ Watching for file changes with StatReloader
 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2389
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2440
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2389
+"GET /admin/ HTTP/1.1" 200 6847
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /admin/music/favorite/ HTTP/1.1" 200 7675
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/filters.js HTTP/1.1" 304 0
+"GET /static/admin/img/search.svg HTTP/1.1" 304 0
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /admin/music/favorite/ HTTP/1.1" 200 7675
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/favorite/ HTTP/1.1" 200 7675
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/favorite/add/ HTTP/1.1" 200 10863
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/music/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2389
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2215
+"GET /static/admin/css/login.css HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 7269
+"GET /admin/music/review/ HTTP/1.1" 200 7655
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/review/add/ HTTP/1.1" 200 12444
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /admin/music/musicinfo/add/?_to_field=slug&_popup=1 HTTP/1.1" 200 15531
+"GET /static/admin/js/inlines.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/inline-delete.svg HTTP/1.1" 304 0
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/music/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/music/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/music/review/add/ HTTP/1.1" 200 12446
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Watching for file changes with StatReloader
+"GET /admin/music/review/add/ HTTP/1.1" 200 12446
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/musicinfo/add/?_to_field=slug&_popup=1 HTTP/1.1" 200 15531
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/music/musicinfo/add/?_to_field=slug&_popup=1 HTTP/1.1" 200 381
+"GET /static/admin/js/popup_response.js HTTP/1.1" 304 0
+"GET /admin/music/review/add/?_to_field=id&_popup=1 HTTP/1.1" 200 7165
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/music/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/music/review/add/ HTTP/1.1" 200 12491
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/review/add/?_to_field=id&_popup=1 HTTP/1.1" 200 7154
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/review/add/?_to_field=id&_popup=1 HTTP/1.1" 200 7154
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/music/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/music/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 6, in lobby
+    return render(requesst, 'chat/lobby.html')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat/lobby.html
+"GET / HTTP/1.1" 500 85760
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 4, in lobby
+    return render(requesst, 'chat/lobby.html')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat/lobby.html
+"GET / HTTP/1.1" 500 85636
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 4, in lobby
+    return render(requesst, 'chat/lobby.html')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat/lobby.html
+"GET / HTTP/1.1" 500 85636
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 4, in lobby
+    return render(requesst, 'chat/lobby.html')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat/lobby.html
+"GET / HTTP/1.1" 500 85636
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 4, in lobby
+    return render(requesst, 'chat/lobby.html')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat/lobby.html
+"GET / HTTP/1.1" 500 85636
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/wsgi.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/music/favorite/add/ HTTP/1.1" 200 11212
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"GET /admin/music/favorite/ HTTP/1.1" 200 7968
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 6, in lobby
+    return render(request, 'chat/lobby.html')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat/lobby.html
+"GET / HTTP/1.1" 500 85950
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 6, in lobby
+    return render(request, 'chat/lobby.html')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat/lobby.html
+"GET / HTTP/1.1" 500 85950
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2705
+Not Found: /cate/
+"GET /cate/ HTTP/1.1" 404 2738
+Internal Server Error: /chats/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 6, in lobby
+    return render(request, 'chat/lobby.html')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat/lobby.html
+"GET /chats/ HTTP/1.1" 500 86022
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2495
+Internal Server Error: /chats/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in lobby
+    return render(request, 'chat/lobby.html')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat/lobby.html
+"GET /chats/ HTTP/1.1" 500 85879
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chats/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in lobby
+    return render(request, 'chat/Templates.lobby')
+TypeError: render() missing 1 required positional argument: 'template_name'
+"GET /chats/ HTTP/1.1" 500 69995
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chats/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in lobby
+    return render(request, 'chat/lobby.html')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat/Templates.lobby
+"GET /chats/ HTTP/1.1" 500 86116
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chats/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in lobby
+    return render(request, 'chat/Templates/lobby.html')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat/lobby.html
+"GET /chats/ HTTP/1.1" 500 86036
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chats/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in lobby
+    return render(request, 'chat/Templates/lobby.html')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat/Templates/lobby.html
+"GET /chats/ HTTP/1.1" 500 86236
+Internal Server Error: /chats/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in lobby
+    return render(request, '.chat/Templates/lobby.html')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat/Templates/lobby.html
+"GET /chats/ HTTP/1.1" 500 86238
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chats/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in lobby
+    return render(request, '.chat/Templates/lobby.html')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: .chat/Templates/lobby.html
+"GET /chats/ HTTP/1.1" 500 86258
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chats/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in lobby
+    return render(request, 'Templates/lobby.html')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Templates/lobby.html
+"GET /chats/ HTTP/1.1" 500 86126
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chats/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in lobby
+    return render(request, 'chat/Tempaltes/lobby.html')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat/Tempaltes/lobby.html
+"GET /chats/ HTTP/1.1" 500 86236
+Internal Server Error: /chats/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in lobby
+    return render(request, 'Tempaltes/lobby.html')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat/Tempaltes/lobby.html
+"GET /chats/ HTTP/1.1" 500 86226
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chats/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in lobby
+    return render(request, '/Tempaltes/lobby.html')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Tempaltes/lobby.html
+"GET /chats/ HTTP/1.1" 500 86128
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chats/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in lobby
+    return render(request, '/Tempaltes/lobby')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /Tempaltes/lobby.html
+"GET /chats/ HTTP/1.1" 500 83548
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chats/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in lobby
+    return render(request, '/Tempaltes/lobby')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /Tempaltes/lobby
+"GET /chats/ HTTP/1.1" 500 83508
+Internal Server Error: /chats/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in lobby
+    return render(request, '/Tempaltes/lobby')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /Tempaltes/lobby
+"GET /chats/ HTTP/1.1" 500 83508
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chats/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in lobby
+    return render(request, 'chat//lobby')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat//lobby
+"GET /chats/ HTTP/1.1" 500 85916
+Internal Server Error: /chats/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in lobby
+    return render(request, 'chat/lobby')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat//lobby
+"GET /chats/ HTTP/1.1" 500 85914
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chats/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in lobby
+    return render(request, 'chat/lobby')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat/lobby
+"GET /chats/ HTTP/1.1" 500 85906
+Internal Server Error: /chats/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in lobby
+    return render(request, 'chat/lobby.html')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat/lobby
+"GET /chats/ HTTP/1.1" 500 85916
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chats/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in lobby
+    return render(request, 'chat/lobby.html')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat/lobby.html
+"GET /chats/ HTTP/1.1" 500 86016
+Internal Server Error: /chats/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in lobby
+    return render(request, 'chat/Tempaltes/lobby.html')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat/lobby.html
+"GET /chats/ HTTP/1.1" 500 86036
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chats/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in lobby
+    return render(request, 'chat/Tempaltes/lobby.html')
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat/Tempaltes/lobby.html
+"GET /chats/ HTTP/1.1" 500 86236
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2494
+Internal Server Error: /chat/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in index
+    return render(request, "chat/index.html")
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat/index.html
+"GET /chat/ HTTP/1.1" 500 86338
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /chat/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in index
+    return render(request, "chat/templates/index.html")
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat/templates/index.html
+"GET /chat/ HTTP/1.1" 500 86715
+Not Found: /chat/templates/chat/index.html
+"GET /chat/templates/chat/index.html HTTP/1.1" 404 2663
+Not Found: /chat/templates/chat/index.html/
+"GET /chat/templates/chat/index.html/ HTTP/1.1" 404 2666
+Not Found: /chat/templates/index.html/
+"GET /chat/templates/index.html/ HTTP/1.1" 404 2651
+"GET /chat HTTP/1.1" 301 0
+Internal Server Error: /chat/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in index
+    return render(request, "chat/templates/index.html")
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat/templates/index.html
+"GET /chat/ HTTP/1.1" 500 86578
+Internal Server Error: /chat/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in index
+    return render(request, "chat/templates/index.html")
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat/templates/index.html
+"GET /chat/ HTTP/1.1" 500 86715
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2494
+Internal Server Error: /chat/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py", line 5, in index
+    return render(request, "templates/index.html")
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: templates/index.html
+"GET /chat/ HTTP/1.1" 500 86458
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2494
+"GET /chat/ HTTP/1.1" 200 123
+"GET /chat/ HTTP/1.1" 200 830
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/apps/registry.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/apps/registry.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/apps/registry.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/apps/registry.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2389
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2440
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /spotify/
+"GET /spotify/ HTTP/1.1" 404 2653
+Not Found: /spotify/
+"GET /spotify/ HTTP/1.1" 404 2653
+Internal Server Error: /spotify/stream-track/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: StreamFileView.get() missing 1 required positional argument: 'pk'
+"GET /spotify/stream-track/ HTTP/1.1" 500 94451
+Not Found: /spotify/
+"GET /spotify/ HTTP/1.1" 404 2653
+"GET /spotify/review HTTP/1.1" 301 0
+Method Not Allowed: /spotify/review/
+"GET /spotify/review/ HTTP/1.1" 405 5682
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+"GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Internal Server Error: /spotify/stream-track/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: StreamFileView.get() missing 1 required positional argument: 'pk'
+"GET /spotify/stream-track/ HTTP/1.1" 500 94588
+Internal Server Error: /spotify/stream-track/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: StreamFileView.get() missing 1 required positional argument: 'pk'
+"GET /spotify/stream-track/ HTTP/1.1" 500 94588
+Not Found: /spotifн/
+"GET /spotif%D0%BD/ HTTP/1.1" 404 2438
+"GET /docs/ HTTP/1.1" 200 2157
+"GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+"GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 143858
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 324275
+"GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1086481
+"GET /docs/?format=openapi HTTP/1.1" 200 4064
