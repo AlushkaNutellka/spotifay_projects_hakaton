@@ -5,8 +5,8 @@ from rest_framework import generics
 from drf_yasg.utils import swagger_auto_schema
 
 from .permissions import IsAdminAuthPermission, IsAuthorPermission
-from .models import MusicInfo, Comment, Like, Rating, Basket
-from .serializers import PostSerializer, PostListSerializer, CommentSerializer, RatingSerializer, BasketSerializer
+from .models import MusicInfo, Comment, Like, Rating, Basket, Vip
+from .serializers import PostSerializer, PostListSerializer, CommentSerializer, RatingSerializer, BasketSerializer, VipSerializer
 import django_filters
 from rest_framework import filters
 from rest_framework.viewsets import ModelViewSet
@@ -151,4 +151,9 @@ class StreamingFileAuthorView(APIView):
 class BasketView(ModelViewSet):
     queryset = Basket.objects.all()
     serializer_class = BasketSerializer
+
+
+class VipView(ModelViewSet):
+    queryset = Vip.objects.all()
+    serializer_class = VipSerializer
 

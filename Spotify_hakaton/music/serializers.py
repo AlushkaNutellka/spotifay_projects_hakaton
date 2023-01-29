@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import MusicInfo, Comment, Rating, Basket
+from .models import MusicInfo, Comment, Rating, Basket, Vip
 from django.db.models import Avg
 
 
@@ -105,7 +105,7 @@ class BasketSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Basket
-        fields = 'all'
+        fields = '__all__'
 
     def create(self, validated_data):
         request = self.context.get('request')
@@ -127,3 +127,32 @@ class BasketSerializer(serializers.ModelSerializer):
         instance.basket = validated_data.get('basket')
         instance.save()
         return validated_data.pop(instance.basket)
+
+
+class VipSerializer(serializers.ModelSerializer):
+    author = serializers.ReadOnlyField(source='author.name')
+
+    class Meta:
+        model = Vip
+        fields = '__all__'
+
+    def create(self, validated_data):
+        request = self.context.get('request')
+        user = request.user
+        vip = Basket.objects.create(author=user, **validated_data)
+        return vip
+
+    def validate_product(self, product):
+        if self.Meta.model.objects.filter(product=product).exists():
+            raise serializers.ValidationError('У вас уже есть VIP')
+        return product
+
+    # def update(self, instance, validated_data):
+    #     instance.vip = validated_data.get('money')
+    #     instance.save()
+    #     return super().update(instance, validated_data)
+
+    def delete(self, instance, validated_data):
+        instance.vip = validated_data.get('money')
+        instance.save()
+        return validated_data.pop(instance.vip)

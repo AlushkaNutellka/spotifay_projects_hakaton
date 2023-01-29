@@ -83,8 +83,15 @@ class Basket(models.Model):
         return self.basket.nime
 
 
-
 # class Image(models.Model):
 #     image = models.ImageField(upload_to='posts/', blank=True)
 
 
+class Vip(models.Model):
+    author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='money')
+    money = models.IntegerField()
+    created_at = models.DateTimeField(auto_now_add=True)
+    update_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self) -> str:
+        return self.money
