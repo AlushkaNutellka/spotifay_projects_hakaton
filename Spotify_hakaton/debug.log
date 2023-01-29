@@ -2914,3 +2914,436 @@ AttributeError: 'int' object has no attribute 'nime'
 "POST /admin/music/vip/add/ HTTP/1.1" 500 118763
 /home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/models.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/music/vip/add/ HTTP/1.1" 200 9676
+"GET /admin/music/vip/add/ HTTP/1.1" 200 9676
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+Internal Server Error: /admin/music/vip/add/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1808, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 924, in log_addition
+    object_repr=str(obj),
+TypeError: __str__ returned non-string (type int)
+"POST /admin/music/vip/add/ HTTP/1.1" 500 115947
+"GET /admin/music/vip/add/ HTTP/1.1" 200 9676
+"GET /admin/music/comment/ HTTP/1.1" 200 8237
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/filters.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/search.svg HTTP/1.1" 304 0
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /admin/music/comment/add/ HTTP/1.1" 200 11188
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/comment/ HTTP/1.1" 200 8237
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/comment/add/ HTTP/1.1" 200 11188
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 10465
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+"GET /admin/music/musicinfo/add/ HTTP/1.1" 200 20843
+"GET /static/admin/js/inlines.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/inline-delete.svg HTTP/1.1" 304 0
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 10465
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 10465
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/musicinfo/add/ HTTP/1.1" 200 20843
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 10465
+"GET /admin/music/rating/ HTTP/1.1" 200 7929
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/rating/add/ HTTP/1.1" 200 11186
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/rating/ HTTP/1.1" 200 7929
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 10465
+"GET /admin/music/comment/ HTTP/1.1" 200 8237
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/music/vip/ HTTP/1.1" 200 8205
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/vip/add/ HTTP/1.1" 200 9676
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/music/vip/add/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1802, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1225, in save_model
+    obj.save()
+  File "/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/models.py", line 102, in save
+    if not self.slug:
+AttributeError: 'Vip' object has no attribute 'slug'
+"POST /admin/music/vip/add/ HTTP/1.1" 500 119493
+"GET /admin/music/vip/add/ HTTP/1.1" 200 9676
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/music/vip/add/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1808, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 924, in log_addition
+    object_repr=str(obj),
+TypeError: __str__ returned non-string (type int)
+"POST /admin/music/vip/add/ HTTP/1.1" 500 115945
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/music/vip/add/ HTTP/1.1" 200 9676
+"GET /admin/music/vip/add/ HTTP/1.1" 200 9676
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/music/vip/add/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1808, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 924, in log_addition
+    object_repr=str(obj),
+TypeError: __str__ returned non-string (type int)
+"POST /admin/music/vip/add/ HTTP/1.1" 500 115947
+"GET /admin/music/vip/add/ HTTP/1.1" 200 9676
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/music/vip/add/ HTTP/1.1" 200 9676
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/music/vip/add/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1808, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 924, in log_addition
+    object_repr=str(obj),
+  File "/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/models.py", line 102, in __str__
+    return self.money.nime
+AttributeError: 'int' object has no attribute 'nime'
+"POST /admin/music/vip/add/ HTTP/1.1" 500 118675
+"GET /admin/music/vip/add/ HTTP/1.1" 200 9676
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/account/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/music/vip/add/ HTTP/1.1" 200 9676
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/music/vip/add/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1808, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 924, in log_addition
+    object_repr=str(obj),
+  File "/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/models.py", line 102, in __str__
+    return self.money.nime
+AttributeError: 'int' object has no attribute 'nime'
+"POST /admin/music/vip/add/ HTTP/1.1" 500 118675
+"GET /admin/music/vip/add/ HTTP/1.1" 200 9676
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/music/vip/add/ HTTP/1.1" 200 9676
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/music/vip/add/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1808, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 924, in log_addition
+    object_repr=str(obj),
+  File "/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/models.py", line 102, in __str__
+    return self.money.nime
+AttributeError: 'int' object has no attribute 'nime'
+"POST /admin/music/vip/add/ HTTP/1.1" 500 118675
+"GET /admin/music/vip/add/ HTTP/1.1" 200 9676
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/music/vip/add/ HTTP/1.1" 200 9676
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/music/vip/add/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1808, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 924, in log_addition
+    object_repr=str(obj),
+  File "/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/models.py", line 102, in __str__
+    return self.money.nime
+AttributeError: 'int' object has no attribute 'nime'
+"POST /admin/music/vip/add/ HTTP/1.1" 500 118675
+"GET /admin/music/vip/add/ HTTP/1.1" 200 9676
+Watching for file changes with StatReloader
+"GET /admin/music/vip/add/ HTTP/1.1" 200 9676
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/music/vip/add/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1808, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 924, in log_addition
+    object_repr=str(obj),
+  File "/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/models.py", line 102, in __str__
+    return self.money.nime
+AttributeError: 'int' object has no attribute 'nime'
+"POST /admin/music/vip/add/ HTTP/1.1" 500 118675
+"GET /admin/music/vip/add/ HTTP/1.1" 200 9676
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 10465
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/musicinfo/bybb/change/ HTTP/1.1" 200 21157
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /admin/music/musicinfo/bybb/change/ HTTP/1.1" 200 21303
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/music/musicinfo/bybb/change/ HTTP/1.1" 302 0
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 10840
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+Not Found: /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg
+"GET /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg HTTP/1.1" 404 2536
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 10633
+"GET /admin/music/musicinfo/bybb/change/ HTTP/1.1" 200 23891
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/music/musicinfo/bybb/change/ HTTP/1.1" 200 24371
+Not Found: /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg
+"GET /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg HTTP/1.1" 404 2536
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/music/musicinfo/bybb/change/ HTTP/1.1" 200 24373
+Not Found: /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg
+"GET /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg HTTP/1.1" 404 2536
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Not Found: /music_inst/DVRST_-_IM_SORRY_xPUHic6.mp3
+"GET /music_inst/DVRST_-_IM_SORRY_xPUHic6.mp3 HTTP/1.1" 404 2524
+"GET /admin/music/musicinfo/bybb/change/ HTTP/1.1" 200 24373
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/music/musicinfo/bybb/change/ HTTP/1.1" 200 24175
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/image/ HTTP/1.1" 200 7885
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/image/add/ HTTP/1.1" 200 10850
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/music/image/add/ HTTP/1.1" 302 0
+"GET /admin/music/image/ HTTP/1.1" 200 9704
+Not Found: /posts/photo_2021-12-30_14-47-32_I2pXDqC.jpg
+"GET /posts/photo_2021-12-30_14-47-32_I2pXDqC.jpg HTTP/1.1" 404 2536
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 10676
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/musicinfo/bybb/change/ HTTP/1.1" 200 24175
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Not Found: /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg
+"GET /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg HTTP/1.1" 404 2536
+"GET /admin/music/musicinfo/bybb/change/ HTTP/1.1" 200 24175
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/music/musicinfo/bybb/change/ HTTP/1.1" 200 24657
+Not Found: /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg
+"GET /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg HTTP/1.1" 404 2536
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader

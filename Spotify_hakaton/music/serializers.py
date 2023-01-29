@@ -139,7 +139,7 @@ class VipSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
         request = self.context.get('request')
         user = request.user
-        vip = Basket.objects.create(author=user, **validated_data)
+        vip = Vip.objects.create(author=user, **validated_data)
         return vip
 
     def validate_product(self, product):
@@ -152,7 +152,7 @@ class VipSerializer(serializers.ModelSerializer):
     #     instance.save()
     #     return super().update(instance, validated_data)
 
-    def delete(self, instance, validated_data):
-        instance.vip = validated_data.get('money')
-        instance.save()
-        return validated_data.pop(instance.vip)
+    # def delete(self, instance, validated_data):
+    #     instance.vip = validated_data.get('money')
+    #     instance.save()
+    #     return validated_data.pop(instance.vip)

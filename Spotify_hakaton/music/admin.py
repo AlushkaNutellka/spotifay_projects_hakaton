@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import MusicInfo, Rating, Like, Comment, Basket, Vip
+from .models import MusicInfo, Rating, Like, Comment, Basket, Vip, Image
 from django.utils.safestring import mark_safe
 
 
@@ -9,19 +9,18 @@ class RatingInline(admin.TabularInline):
 
 @admin.register(MusicInfo)
 class PostAdmin(admin.ModelAdmin):
-    list_display = ('title', 'created_at', 'get_rating', 'image', 'image_show')
+    list_display = ('title', 'created_at', 'get_rating', 'image', 'get_image')
     inlines = [RatingInline]
     search_fields = ['title', 'body']
     prepopulated_fields = {'slug': ('title', )}
     ordering = ['-created_at']
     list_filter = ['title']
+    readonly_fields = ('get_image',)
 
-    def image_show(self, obj):
-        if obj.image:
-            return mark_safe("<img src='{}' width='60 />".format(obj.image.url))
-        return 'None'
+    def get_image(self, obj):
+        return mark_safe(f'<img src="{obj.image.url}" width="100" height="100" />')
 
-    image_show.__name__ = 'Картинка'
+    get_image.short_description = 'Картинка'
 
     def get_rating(self, obj):
         from django.db.models import Avg
@@ -53,14 +52,16 @@ class CommentAdmin(admin.ModelAdmin):
     list_filter = ['comment']
 
 
-# class ImageAdmin(admin.TabularInline):
-#     model = Image
-#     readonly_fields = ('get_image',)
-#
-#     def get_image(self, obj):
-#         return mark_safe(f'<img src="{obj.image.url}" width="60" height="60" />')
-#
-#     get_image.short_description = 'Картинка'
+@admin.register(Image)
+class ImageAdmin(admin.ModelAdmin):
+    list_display = ('title', 'author', 'get_image')
+    readonly_fields = ('get_image',)
+
+    def get_image(self, obj):
+        return mark_safe(f'<img src="{obj.image.url}" width="60" height="60" />')
+
+    get_image.short_description = 'Картинка'
+
 
 @admin.register(Basket)
 class BasketAdmin(admin.ModelAdmin):
@@ -72,7 +73,7 @@ class BasketAdmin(admin.ModelAdmin):
 
 @admin.register(Vip)
 class VipAdmin(admin.ModelAdmin):
-    list_display = ('money',)
+    list_display = ('money', 'created_at', 'author')
     search_fields = ['money', 'author']
     ordering = ['-created_at']
     list_filter = ['money']
