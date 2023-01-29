@@ -54,7 +54,7 @@ class CommentAdmin(admin.ModelAdmin):
 
 @admin.register(Image)
 class ImageAdmin(admin.ModelAdmin):
-    list_display = ('title', 'author', 'get_image')
+    list_display = ('title', 'author', 'get_image', 'image')
     readonly_fields = ('get_image',)
 
     def get_image(self, obj):

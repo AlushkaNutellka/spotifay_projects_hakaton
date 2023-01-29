@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import MusicInfo, Comment, Rating, Basket, Vip
+from .models import MusicInfo, Comment, Rating, Basket, Vip, User
 from django.db.models import Avg
 
 
@@ -40,20 +40,6 @@ class PostListSerializer(serializers.ModelSerializer):
     class Meta:
         model = MusicInfo
         fields = ['title', 'slug', 'image', 'music', 'created_at']
-
-
-class CommentSerializer(serializers.ModelSerializer):
-    author = serializers.ReadOnlyField(source='author.name')
-
-    def create(self, validated_data):
-        request = self.context.get('request')
-        user = request.user
-        comment = Comment.objects.create(author=user, **validated_data)
-        return comment
-
-    class Meta:
-        model = Comment
-        fields = '__all__'
 
 
 class CommentSerializer(serializers.ModelSerializer):
@@ -142,10 +128,16 @@ class VipSerializer(serializers.ModelSerializer):
         vip = Vip.objects.create(author=user, **validated_data)
         return vip
 
-    def validate_product(self, product):
-        if self.Meta.model.objects.filter(product=product).exists():
+    def validate_product(self, money):
+        if self.Meta.model.objects.filter(money=money).exists():
             raise serializers.ValidationError('У вас уже есть VIP')
-        return product
+        return money
+
+    def validate(self, data):
+        email = data.get('email')
+        if not User.objects.filter(email=email).exists():
+            raise serializers.ValidationError('Пользователь не найден')
+        return data
 
     # def update(self, instance, validated_data):
     #     instance.vip = validated_data.get('money')
@@ -156,3 +148,14 @@ class VipSerializer(serializers.ModelSerializer):
     #     instance.vip = validated_data.get('money')
     #     instance.save()
     #     return validated_data.pop(instance.vip)
+
+    # def to_representation(self, instance):
+    #     representation = super().to_representation(instance)
+    #     representation['vips'] = VipSerializer(
+    #         Vip.objects.filter(post=instance.pk),
+    #         many=True
+    #     ).data
+    #     representation['ratings'] = instance.ratings.aggregate(Avg('rating'))['rating__avg']
+    #     # obj = Like.objects.filter(is_liked=True)
+    #     representation['likes_count'] = instance.likes.count()
+    #     return representation

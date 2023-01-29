@@ -102,5 +102,10 @@ class Vip(models.Model):
     class Meta:
         ordering = ['-created_at']
 
-    def __str__(self) -> str:
-        return self.money.nime
+    # def __str__(self) -> str:
+    #     return self.money
+
+    def save(self, *args, **kwargs):
+        if not self.money:
+            self.slug = slugify(self.title)
+        super().save(*args, **kwargs)

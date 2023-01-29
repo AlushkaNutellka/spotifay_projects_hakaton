@@ -3347,3 +3347,1179 @@ Not Found: /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg
 Watching for file changes with StatReloader
 /home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/music/vip/ HTTP/1.1" 200 8489
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/vip/add/ HTTP/1.1" 200 9960
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/music/vip/add/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1808, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 924, in log_addition
+    object_repr=str(obj),
+  File "/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/models.py", line 106, in __str__
+    return self.money.nime
+AttributeError: 'int' object has no attribute 'nime'
+"POST /admin/music/vip/add/ HTTP/1.1" 500 118675
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/music/vip/add/ HTTP/1.1" 200 9960
+Internal Server Error: /admin/music/vip/add/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1808, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 924, in log_addition
+    object_repr=str(obj),
+TypeError: __str__ returned non-string (type int)
+"POST /admin/music/vip/add/ HTTP/1.1" 500 115945
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/music/vip/add/ HTTP/1.1" 200 9960
+Internal Server Error: /admin/music/vip/add/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1802, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1225, in save_model
+    obj.save()
+  File "/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/models.py", line 109, in save
+    if not self.slug:
+AttributeError: 'Vip' object has no attribute 'slug'
+"POST /admin/music/vip/add/ HTTP/1.1" 500 119023
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/music/vip/add/ HTTP/1.1" 200 9960
+Internal Server Error: /admin/music/vip/add/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1808, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 924, in log_addition
+    object_repr=str(obj),
+TypeError: __str__ returned non-string (type int)
+"POST /admin/music/vip/add/ HTTP/1.1" 500 115945
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/models.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /admin/music/vip/add/ HTTP/1.1" 302 0
+"GET /admin/music/vip/ HTTP/1.1" 200 10557
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/image/ HTTP/1.1" 200 9499
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Not Found: /posts/photo_2021-12-30_14-47-32_I2pXDqC.jpg
+"GET /posts/photo_2021-12-30_14-47-32_I2pXDqC.jpg HTTP/1.1" 404 2536
+"GET /admin/music/image/1/change/ HTTP/1.1" 200 11506
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Not Found: /posts/photo_2021-12-30_14-47-32_I2pXDqC.jpg
+"GET /posts/photo_2021-12-30_14-47-32_I2pXDqC.jpg HTTP/1.1" 404 2536
+Not Found: /posts/photo_2021-12-30_14-47-32_I2pXDqC.jpg
+"GET /posts/photo_2021-12-30_14-47-32_I2pXDqC.jpg HTTP/1.1" 404 2536
+"GET /admin/music/image/1/change/ HTTP/1.1" 200 11506
+"GET /admin/music/image/ HTTP/1.1" 200 9499
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 10930
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Not Found: /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg
+"GET /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg HTTP/1.1" 404 2536
+"GET /admin/music/musicinfo/bybb/change/ HTTP/1.1" 200 24657
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Not Found: /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg
+"GET /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg HTTP/1.1" 404 2536
+Not Found: /music_inst/DVRST_-_IM_SORRY_xPUHic6.mp3
+"GET /music_inst/DVRST_-_IM_SORRY_xPUHic6.mp3 HTTP/1.1" 404 2524
+"GET /admin/music/musicinfo/bybb/change/ HTTP/1.1" 200 24657
+"GET /admin/music/vip/ HTTP/1.1" 200 10356
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/vip/add/ HTTP/1.1" 200 9960
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/music/vip/add/ HTTP/1.1" 302 0
+"GET /admin/music/vip/ HTTP/1.1" 200 10924
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 10930
+Not Found: /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg
+"GET /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg HTTP/1.1" 404 2536
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/musicinfo/add/ HTTP/1.1" 200 21527
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/music/musicinfo/add/ HTTP/1.1" 302 0
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 11747
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Not Found: /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg
+"GET /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg HTTP/1.1" 404 2536
+Not Found: /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg
+"GET /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg HTTP/1.1" 404 2536
+"GET /admin/music/musicinfo/add/ HTTP/1.1" 200 21527
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/music/musicinfo/add/ HTTP/1.1" 302 0
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 12341
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Not Found: /posts/photo_2021-12-30_14-47-32.png
+"GET /posts/photo_2021-12-30_14-47-32.png HTTP/1.1" 404 2512
+Not Found: /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg
+"GET /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg HTTP/1.1" 404 2536
+Not Found: /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg
+"GET /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg HTTP/1.1" 404 2536
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/music/vip/ HTTP/1.1" 200 10723
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/vip/add/ HTTP/1.1" 200 9960
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/music/vip/add/ HTTP/1.1" 302 0
+"GET /admin/music/vip/ HTTP/1.1" 200 11287
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/music/vip/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1152, in get_search_results
+    queryset = queryset.filter(models.Q(*term_queries))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1292, in build_lookup
+    raise FieldError(
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+"GET /admin/music/vip/?q=8 HTTP/1.1" 500 181471
+"GET /admin/music/vip/ HTTP/1.1" 200 11086
+"GET /admin/music/vip/?money=800 HTTP/1.1" 200 10823
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 12134
+Not Found: /posts/photo_2021-12-30_14-47-32.png
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /posts/photo_2021-12-30_14-47-32.png HTTP/1.1" 404 2512
+Not Found: /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg
+"GET /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg HTTP/1.1" 404 2536
+Not Found: /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg
+"GET /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg HTTP/1.1" 404 2536
+"GET /admin/music/musicinfo/?q=image HTTP/1.1" 200 11262
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Not Found: /posts/photo_2021-12-30_14-47-32.png
+"GET /posts/photo_2021-12-30_14-47-32.png HTTP/1.1" 404 2512
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/music/image/ HTTP/1.1" 200 9499
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Not Found: /posts/photo_2021-12-30_14-47-32_I2pXDqC.jpg
+"GET /posts/photo_2021-12-30_14-47-32_I2pXDqC.jpg HTTP/1.1" 404 2536
+"GET /admin/music/vip/ HTTP/1.1" 200 11086
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/music/vip/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1152, in get_search_results
+    queryset = queryset.filter(models.Q(*term_queries))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1292, in build_lookup
+    raise FieldError(
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+"GET /admin/music/vip/?q=8 HTTP/1.1" 500 181471
+"GET /admin/music/vip/ HTTP/1.1" 200 11086
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/music/vip/ HTTP/1.1" 200 11086
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 12134
+Not Found: /posts/photo_2021-12-30_14-47-32.png
+"GET /posts/photo_2021-12-30_14-47-32.png HTTP/1.1" 404 2512
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Not Found: /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg
+"GET /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg HTTP/1.1" 404 2536
+Not Found: /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg
+"GET /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg HTTP/1.1" 404 2536
+"GET /admin/music/musicinfo/image/change/ HTTP/1.1" 200 24647
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Not Found: /posts/photo_2021-12-30_14-47-32.png
+"GET /posts/photo_2021-12-30_14-47-32.png HTTP/1.1" 404 2512
+Not Found: /music_inst/DVRST_-_IM_SORRY_USIecU6.mp3
+"GET /music_inst/DVRST_-_IM_SORRY_USIecU6.mp3 HTTP/1.1" 404 2524
+"GET /admin/music/musicinfo/image/change/ HTTP/1.1" 200 24647
+"GET /admin/music/comment/ HTTP/1.1" 200 8521
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/comment/add/ HTTP/1.1" 200 11550
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/music/comment/add/ HTTP/1.1" 302 0
+"GET /admin/music/comment/ HTTP/1.1" 200 10841
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/music/comment/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1152, in get_search_results
+    queryset = queryset.filter(models.Q(*term_queries))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1292, in build_lookup
+    raise FieldError(
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+"GET /admin/music/comment/?q=vdj HTTP/1.1" 500 181571
+"GET /admin/music/comment/ HTTP/1.1" 200 10633
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 12134
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Not Found: /posts/photo_2021-12-30_14-47-32.png
+"GET /posts/photo_2021-12-30_14-47-32.png HTTP/1.1" 404 2512
+Not Found: /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg
+"GET /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg HTTP/1.1" 404 2536
+Not Found: /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg
+"GET /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg HTTP/1.1" 404 2536
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 12134
+Not Found: /posts/photo_2021-12-30_14-47-32.png
+"GET /posts/photo_2021-12-30_14-47-32.png HTTP/1.1" 404 2512
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Not Found: /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg
+"GET /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg HTTP/1.1" 404 2536
+Not Found: /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg
+"GET /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg HTTP/1.1" 404 2536
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 12134
+Not Found: /posts/photo_2021-12-30_14-47-32.png
+"GET /posts/photo_2021-12-30_14-47-32.png HTTP/1.1" 404 2512
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Not Found: /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg
+"GET /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg HTTP/1.1" 404 2536
+Not Found: /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg
+"GET /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg HTTP/1.1" 404 2536
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 12134
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Not Found: /posts/photo_2021-12-30_14-47-32.png
+"GET /posts/photo_2021-12-30_14-47-32.png HTTP/1.1" 404 2512
+Not Found: /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg
+"GET /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg HTTP/1.1" 404 2536
+Not Found: /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg
+"GET /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg HTTP/1.1" 404 2536
+"GET /admin/music/vip/ HTTP/1.1" 200 11086
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/music/vip/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1152, in get_search_results
+    queryset = queryset.filter(models.Q(*term_queries))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1292, in build_lookup
+    raise FieldError(
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+"GET /admin/music/vip/?q=8 HTTP/1.1" 500 181471
+"GET /admin/music/vip/ HTTP/1.1" 200 11086
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2389
+"GET /admin/music/basket/ HTTP/1.1" 200 9397
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/js/filters.js HTTP/1.1" 304 0
+"GET /static/admin/img/search.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"GET /admin/music/vip/ HTTP/1.1" 200 11086
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/music/vip/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1152, in get_search_results
+    queryset = queryset.filter(models.Q(*term_queries))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1292, in build_lookup
+    raise FieldError(
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+"GET /admin/music/vip/?q=8 HTTP/1.1" 500 181471
+"GET /admin/music/vip/ HTTP/1.1" 200 11086
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/music/image/ HTTP/1.1" 200 9778
+Not Found: /posts/photo_2021-12-30_14-47-32_I2pXDqC.jpg
+"GET /posts/photo_2021-12-30_14-47-32_I2pXDqC.jpg HTTP/1.1" 404 2536
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/like/ HTTP/1.1" 200 8199
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/like/add/ HTTP/1.1" 200 11452
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/music/like/add/ HTTP/1.1" 302 0
+"GET /admin/music/like/ HTTP/1.1" 200 10251
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/music/like/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1152, in get_search_results
+    queryset = queryset.filter(models.Q(*term_queries))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1292, in build_lookup
+    raise FieldError(
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+"GET /admin/music/like/?q=ad HTTP/1.1" 500 180219
+"GET /admin/music/like/ HTTP/1.1" 200 10044
+"GET /admin/music/comment/ HTTP/1.1" 200 10633
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/music/comment/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1152, in get_search_results
+    queryset = queryset.filter(models.Q(*term_queries))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1292, in build_lookup
+    raise FieldError(
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+"GET /admin/music/comment/?q=vd HTTP/1.1" 500 181520
+"GET /admin/music/comment/ HTTP/1.1" 200 10633
+"GET /admin/music/basket/ HTTP/1.1" 200 9397
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/music/basket/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1152, in get_search_results
+    queryset = queryset.filter(models.Q(*term_queries))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1292, in build_lookup
+    raise FieldError(
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+"GET /admin/music/basket/?q=ad HTTP/1.1" 500 180461
+"GET /admin/music/basket/ HTTP/1.1" 200 9397
+"GET /admin/music/rating/ HTTP/1.1" 200 10585
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/music/rating/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1152, in get_search_results
+    queryset = queryset.filter(models.Q(*term_queries))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1292, in build_lookup
+    raise FieldError(
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+"GET /admin/music/rating/?q=ad HTTP/1.1" 500 180663
+"GET /admin/music/rating/ HTTP/1.1" 200 10585
+"GET /admin/music/vip/ HTTP/1.1" 200 11086
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/rating/ HTTP/1.1" 200 10585
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/music/comment/ HTTP/1.1" 200 10633
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/music/comment/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1152, in get_search_results
+    queryset = queryset.filter(models.Q(*term_queries))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1292, in build_lookup
+    raise FieldError(
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+"GET /admin/music/comment/?q=vd HTTP/1.1" 500 181520
+"GET /admin/music/comment/ HTTP/1.1" 200 10633
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/music/comment/ HTTP/1.1" 200 10633
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/comment/add/ HTTP/1.1" 200 11550
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/music/comment/add/ HTTP/1.1" 302 0
+"GET /admin/music/comment/ HTTP/1.1" 200 11245
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/music/comment/ HTTP/1.1" 200 11048
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/comment/add/ HTTP/1.1" 200 11550
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/music/comment/ HTTP/1.1" 200 11048
+"GET /admin/music/comment/ HTTP/1.1" 200 11048
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/music/comment/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1152, in get_search_results
+    queryset = queryset.filter(models.Q(*term_queries))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1292, in build_lookup
+    raise FieldError(
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+"GET /admin/music/comment/?q=bv HTTP/1.1" 500 181681
+"GET /admin/music/comment/ HTTP/1.1" 200 11048
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/music/comment/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1152, in get_search_results
+    queryset = queryset.filter(models.Q(*term_queries))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1292, in build_lookup
+    raise FieldError(
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+"GET /admin/music/comment/?q=bv HTTP/1.1" 500 181681
+Internal Server Error: /admin/music/comment/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1152, in get_search_results
+    queryset = queryset.filter(models.Q(*term_queries))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1292, in build_lookup
+    raise FieldError(
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+"GET /admin/music/comment/?q=bv HTTP/1.1" 500 181818
+"GET /admin/music/comment/ HTTP/1.1" 200 11048
+Internal Server Error: /admin/music/comment/
+Traceback (most recent call last):
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1152, in get_search_results
+    queryset = queryset.filter(models.Q(*term_queries))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/akjol/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1292, in build_lookup
+    raise FieldError(
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+"GET /admin/music/comment/?q=bv HTTP/1.1" 500 181681
+/home/akjol/Desktop/python24/spotifay_projects_hakaton/Spotify_hakaton/music/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/music/comment/ HTTP/1.1" 200 11048
+"GET /admin/music/vip/ HTTP/1.1" 200 11086
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 12134
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Not Found: /posts/photo_2021-12-30_14-47-32.png
+"GET /posts/photo_2021-12-30_14-47-32.png HTTP/1.1" 404 2512
+Not Found: /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg
+"GET /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg HTTP/1.1" 404 2536
+Not Found: /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg
+"GET /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg HTTP/1.1" 404 2536
+"GET /admin/music/vip/ HTTP/1.1" 200 11086
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 12134
+Not Found: /posts/photo_2021-12-30_14-47-32.png
+"GET /posts/photo_2021-12-30_14-47-32.png HTTP/1.1" 404 2512
+Not Found: /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg
+"GET /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg HTTP/1.1" 404 2536
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Not Found: /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg
+"GET /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg HTTP/1.1" 404 2536
+Not Found: /posts/photo_2021-12-30_14-47-32.png
+"GET /posts/photo_2021-12-30_14-47-32.png HTTP/1.1" 404 2512
+Not Found: /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg
+"GET /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg HTTP/1.1" 404 2536
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 12134
+"GET /admin/music/vip/ HTTP/1.1" 200 11086
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/rating/ HTTP/1.1" 200 10585
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/like/ HTTP/1.1" 200 10044
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/comment/ HTTP/1.1" 200 11048
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 12134
+Not Found: /posts/photo_2021-12-30_14-47-32.png
+"GET /posts/photo_2021-12-30_14-47-32.png HTTP/1.1" 404 2512
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Not Found: /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg
+"GET /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg HTTP/1.1" 404 2536
+Not Found: /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg
+"GET /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg HTTP/1.1" 404 2536
+Watching for file changes with StatReloader
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 12134
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Not Found: /posts/photo_2021-12-30_14-47-32.png
+"GET /posts/photo_2021-12-30_14-47-32.png HTTP/1.1" 404 2512
+Not Found: /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg
+"GET /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg HTTP/1.1" 404 2536
+Not Found: /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg
+"GET /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg HTTP/1.1" 404 2536
+"GET /admin/music/vip/ HTTP/1.1" 200 11086
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/vip/20/change/ HTTP/1.1" 200 10234
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/vip/20/history/ HTTP/1.1" 200 7166
+"GET /admin/music/vip/20/change/ HTTP/1.1" 200 10234
+"GET /admin/music/vip/ HTTP/1.1" 200 11086
+"GET /admin/music/musicinfo/ HTTP/1.1" 200 12134
+Not Found: /posts/photo_2021-12-30_14-47-32.png
+"GET /posts/photo_2021-12-30_14-47-32.png HTTP/1.1" 404 2512
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Not Found: /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg
+"GET /posts/photo_2021-12-30_14-47-32_iKyNaRV.jpg HTTP/1.1" 404 2536
+Not Found: /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg
+"GET /posts/photo_2021-12-30_14-47-32_yuXXgmo.jpg HTTP/1.1" 404 2536

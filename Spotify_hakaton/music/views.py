@@ -95,6 +95,17 @@ class MusicViewSet(ModelViewSet):
 class CommentView(ModelViewSet):
     queryset = Comment.objects.all()
     serializer_class = CommentSerializer
+    filter_backends = [django_filters.rest_framework.DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter]
+
+    search_fields = ['comment', 'created_at']
+    ordering_fields = ['created_at', 'comment']
+
+    @action(['GET'], detail=True)
+    def comments(self, request, pk=None):
+        post = self.get_object()
+        comments = post.comments.all()
+        serializer = CommentSerializer(comments, many=True)
+        return Response(serializer.data)
 
     def get_permissions(self):
         if self.action in ['list', 'retrieve']:
@@ -139,10 +150,10 @@ class StreamingFileAuthorView(APIView):
     permission_classes = [MusicInfo]
 
     def get(self, request):
-        self.track = get_object_or_404(models.Track, user=request.user)
-        if os.path.exists(self.track.file.path):
+        self.music = get_object_or_404(models.Track, user=request.user)
+        if os.path.exists(self.music.file.path):
             response = HttpResponse('', content_type="audio/mpeg", status=206)
-            response['X-Accel-Redirect'] = f"/mp3/{self.track.file.name}"
+            response['X-Accel-Redirect'] = f"/mp3/{self.music.file.name}"
             return response
         else:
             return Http404
