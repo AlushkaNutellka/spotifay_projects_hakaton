@@ -7,20 +7,21 @@ API_KEY = '5944770346:AAGmS8wOxJmkDvr0UIMaJQvCsjBn1gZmjQM'
 def parser(url):
     r = requests.get(url)
     soup = b(r.text, 'html.parser')
-    a = soup.find_all('li', class_='item')
-    clear_bot = [c.span for c in a]
-    random.shuffle(clear_bot)
-    return clear_bot
+    a = soup.find_all('span', class_='track')
+    # clear_bot = [c.span for c in a]
+    random.shuffle(a)
+    return a
+    # return clear_bot
 
 
 list_of_musik22 = parser(URL)
 random.shuffle(list_of_musik22)
 
 bot = telebot.TeleBot(API_KEY)
-@bot.message_handler(commands=['начать'])
+@bot.message_handler(commands=['start'])
 
 def hello(message):
-    bot.send_message(message.chat.id, 'Хелоу Мэн! хочешь узнать лучшую песню 2022 года, введи любую цифру ')
+    bot.send_message(message.chat.id, 'Хелоу Мэн! хочешь узнать лучшии песни за 10 лет, введи любую цифру ')
 
 
 @bot.message_handler(content_types=['text'])
