@@ -9,6 +9,7 @@ def parser(url):
     soup = b(r.text, 'html.parser')
     a = soup.find_all('li', class_='item')
     clear_bot = [c.span for c in a]
+    random.shuffle(clear_bot)
     return clear_bot
 
 
