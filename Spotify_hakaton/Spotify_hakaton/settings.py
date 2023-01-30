@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
-
+import os.path
 from pathlib import Path
 from decouple import config
 
@@ -175,3 +175,6 @@ LOGGING = {
         },
     },
 }
+MEDIA_URL = '/posts/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'posts')
+

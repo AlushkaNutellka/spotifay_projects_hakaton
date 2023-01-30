@@ -133,29 +133,29 @@ class VipSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError('У вас уже есть VIP')
         return money
 
-    def validate(self, data):
-        email = data.get('email')
-        if not User.objects.filter(email=email).exists():
-            raise serializers.ValidationError('Пользователь не найден')
-        return data
 
+class HistorySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Basket
+        fields = '__all__'
+
+    def create(self, validated_data):
+        request = self.context.get('request')
+        user = request.user
+        his = Basket.objects.create(**validated_data)
+        return his
+
+    # def validate_product(self, history):
+    #     if self.Meta.model.objects.filter(history=history).exists():
+    #         raise serializers.ValidationError('Уже сушествует в истории')
+    #     return history
+    #
     # def update(self, instance, validated_data):
-    #     instance.vip = validated_data.get('money')
+    #     instance.history = validated_data.get('history')
     #     instance.save()
     #     return super().update(instance, validated_data)
-
+    #
     # def delete(self, instance, validated_data):
-    #     instance.vip = validated_data.get('money')
+    #     instance.history = validated_data.get('history')
     #     instance.save()
-    #     return validated_data.pop(instance.vip)
-
-    # def to_representation(self, instance):
-    #     representation = super().to_representation(instance)
-    #     representation['vips'] = VipSerializer(
-    #         Vip.objects.filter(post=instance.pk),
-    #         many=True
-    #     ).data
-    #     representation['ratings'] = instance.ratings.aggregate(Avg('rating'))['rating__avg']
-    #     # obj = Like.objects.filter(is_liked=True)
-    #     representation['likes_count'] = instance.likes.count()
-    #     return representation
+    #     return validated_data.pop(instance.history)

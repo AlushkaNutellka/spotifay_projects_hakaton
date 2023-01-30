@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import MusicInfo, Rating, Like, Comment, Basket, Vip, Image
+from .models import MusicInfo, Rating, Like, Comment, Basket, Vip, Image, History
 from django.utils.safestring import mark_safe
 
 
@@ -77,3 +77,11 @@ class VipAdmin(admin.ModelAdmin):
     search_fields = ['money', 'author']
     ordering = ['-created_at']
     list_filter = ['money']
+
+
+@admin.register(History)
+class HistoryAdmin(admin.ModelAdmin):
+    list_display = ('created_at', 'author', 'history')
+    search_fields = ['history', 'author']
+    ordering = ['-created_at']
+    list_filter = ['history']
