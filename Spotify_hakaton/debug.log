@@ -3116,3 +3116,78 @@ Not Found: /spotifн/
 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1086481
 "GET /docs/?format=openapi HTTP/1.1" 200 4064
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/Spotify_hakaton/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2498
+Not Found: /accounts/
+"GET /accounts/ HTTP/1.1" 404 6043
+"GET /accounts/signup HTTP/1.1" 301 0
+Internal Server Error: /accounts/signup/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/db/models/options.py", line 668, in get_field
+    return self.fields_map[field_name]
+KeyError: 'username'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/allauth/decorators.py", line 20, in wrap
+    resp = function(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/allauth/account/views.py", line 234, in dispatch
+    return super(SignupView, self).dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/allauth/account/views.py", line 77, in dispatch
+    response = super(RedirectAuthenticatedUserMixin, self).dispatch(
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/allauth/account/views.py", line 207, in dispatch
+    return super(CloseableSignupMixin, self).dispatch(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/allauth/account/views.py", line 93, in get
+    response = super(AjaxCapableProcessFormViewMixin, self).get(
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/allauth/account/views.py", line 264, in get_context_data
+    ret = super(SignupView, self).get_context_data(**kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/allauth/account/views.py", line 115, in get_form
+    form = super(AjaxCapableProcessFormViewMixin, self).get_form(form_class)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 39, in get_form
+    return form_class(**self.get_form_kwargs())
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/allauth/account/forms.py", line 396, in __init__
+    super(SignupForm, self).__init__(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/allauth/account/forms.py", line 300, in __init__
+    username_field.max_length = get_username_max_length()
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/allauth/utils.py", line 72, in get_username_max_length
+    max_length = User._meta.get_field(USER_MODEL_USERNAME_FIELD).max_length
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/db/models/options.py", line 670, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: User has no field named 'username'
+"GET /accounts/signup/ HTTP/1.1" 500 156764

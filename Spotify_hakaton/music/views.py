@@ -1,9 +1,5 @@
 import os.path
-
 from django.shortcuts import render, get_object_or_404
-from rest_framework import generics
-from drf_yasg.utils import swagger_auto_schema
-
 from .permissions import IsAdminAuthPermission, IsAuthorPermission
 from .models import MusicInfo, Comment, Like, Rating, Basket, Vip
 from .serializers import PostSerializer, PostListSerializer, CommentSerializer, RatingSerializer, BasketSerializer, VipSerializer

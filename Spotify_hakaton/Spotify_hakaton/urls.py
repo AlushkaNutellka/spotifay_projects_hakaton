@@ -18,4 +18,6 @@ urlpatterns = [
     path('spotify/', include('music.urls')),
     path('docs/', schema_view.with_ui('swagger')),
     path('account/', include('account.urls')),
+    path('accounts/', include('allauth.urls')),
+
 ]

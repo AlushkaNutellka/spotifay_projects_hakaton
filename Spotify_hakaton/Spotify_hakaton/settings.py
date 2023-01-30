@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -18,7 +19,7 @@ ALLOWED_HOSTS = []
 AUTH_USER_MODEL = 'account.User'
 
 
-# Application definition
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -34,9 +35,13 @@ INSTALLED_APPS = [
     'account',
     'drf_yasg',
     'music',
-
-
+    'django.contrib.sites',
+    'allauth',
+    # 'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.google'
 ]
+SITE_ID = 1
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -141,7 +146,7 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'jiulwinchester@gmail.com'
-EMAIL_HOST_PASSWORD = 'zpdvxnusgeinwxmh'
+EMAIL_HOST_PASSWORD = 'qeegfmafpqhckvjd'
 
 
 LOGGING = {
@@ -162,3 +167,7 @@ LOGGING = {
         },
     },
 }
+
+MEDIA_URL = '/posts/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'posts')
+
