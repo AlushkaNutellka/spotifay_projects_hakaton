@@ -139,3 +139,13 @@ class VipSerializer(serializers.ModelSerializer):
         if not User.objects.filter(email=email).exists():
             raise serializers.ValidationError('Пользователь не найден')
         return data
+class HistorySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Basket
+        fields = '__all__'
+
+    def create(self, validated_data):
+        request = self.context.get('request')
+        user = request.user
+        his = Basket.objects.create(**validated_data)
+        return his

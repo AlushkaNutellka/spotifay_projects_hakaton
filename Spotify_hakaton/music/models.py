@@ -109,3 +109,19 @@ class Vip(models.Model):
         if not self.money:
             self.slug = slugify(self.title)
         super().save(*args, **kwargs)
+class History(models.Model):
+    author = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name='stories'
+    )
+    history = models.ForeignKey(
+        MusicInfo, on_delete=models.CASCADE, related_name='stories'
+    )
+    is_stories = models.BooleanField(default=True)
+
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ['-created_at']
+
+    def __str__(self) -> str:
+        return f'{self.history} Stories by {self.author.name}'

@@ -1,8 +1,9 @@
 import os.path
 from django.shortcuts import render, get_object_or_404
 from .permissions import IsAdminAuthPermission, IsAuthorPermission
-from .models import MusicInfo, Comment, Like, Rating, Basket, Vip
-from .serializers import PostSerializer, PostListSerializer, CommentSerializer, RatingSerializer, BasketSerializer, VipSerializer
+from .models import MusicInfo, Comment, Like, Rating, Basket, Vip, History
+from .serializers import PostSerializer, PostListSerializer, CommentSerializer, RatingSerializer, BasketSerializer, \
+    VipSerializer, HistorySerializer
 import django_filters
 from rest_framework import filters
 from rest_framework.viewsets import ModelViewSet
@@ -164,3 +165,6 @@ class VipView(ModelViewSet):
     queryset = Vip.objects.all()
     serializer_class = VipSerializer
 
+class HistoryView(ModelViewSet):
+    queryset = History.objects.all()
+    serializer_class = HistorySerializer
