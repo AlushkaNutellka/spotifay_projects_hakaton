@@ -1,4 +1,4 @@
-#!/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/venv/bin/python3
+#!/home/akjol/Desktop/python24/spotifay_projects_hakaton/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
