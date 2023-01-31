@@ -36,14 +36,6 @@ class LikeAdmin(admin.ModelAdmin):
     list_filter = ['author']
 
 
-@admin.register(Favorite)
-class FavoriteAdmin(admin.ModelAdmin):
-    list_display = ('author', 'favorite', 'is_favorite')
-    search_fields = ['author', 'favorite']
-    ordering = ['-is_favorite']
-    list_filter = ['author']
-
-
 @admin.register(Rating)
 class RatingAdmin(admin.ModelAdmin):
     list_display = ('author', 'post', 'rating')
@@ -86,9 +78,18 @@ class VipAdmin(admin.ModelAdmin):
     ordering = ['-created_at']
     list_filter = ['money']
 
+
 @admin.register(History)
 class HistoryAdmin(admin.ModelAdmin):
     list_display = ('created_at', 'author', 'history')
     search_fields = ['history', 'author']
     ordering = ['-created_at']
     list_filter = ['history']
+
+
+@admin.register(Favorite)
+class FavoriteAdmin(admin.ModelAdmin):
+    list_display = ('author', 'favorite', 'is_favorite')
+    search_fields = ['author', 'favorite']
+    ordering = ['-is_favorite']
+    list_filter = ['author']

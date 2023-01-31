@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'Spotify_hakaton.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'spotifydbb',
+        'NAME': 'genshin',
         'USER': 'aliyar',
         'PASSWORD': '1',
         'HOST': 'localhost',

@@ -2,6 +2,7 @@ from django.contrib.auth import get_user_model
 from django.db import models
 from slugify import slugify
 
+
 User = get_user_model()
 
 
@@ -74,19 +75,6 @@ class Like(models.Model):
         return f'{self.like} Liked by {self.author.name}'
 
 
-class Favorite(models.Model):
-    author = models.ForeignKey(
-        User, on_delete=models.CASCADE, related_name='favorite'
-    )
-    favorite = models.ForeignKey(
-        MusicInfo, on_delete=models.CASCADE, related_name='favorite'
-    )
-    is_favorite = models.BooleanField(default=False)
-
-    def __str__(self) -> str:
-        return f'{self.favorite} favorite by {self.author.name}'
-
-
 class Basket(models.Model):
     basket = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name='basket'
@@ -110,13 +98,10 @@ class Vip(models.Model):
     money = models.IntegerField()
 
     created_at = models.DateTimeField(auto_now_add=True)
-    update_at = models.DateTimeField(auto_now_add=True)
 
     class Meta:
         ordering = ['-created_at']
 
-    # def __str__(self) -> str:
-    #     return self.money
 
     def save(self, *args, **kwargs):
         if not self.money:
@@ -140,3 +125,16 @@ class History(models.Model):
 
     def __str__(self) -> str:
         return f'{self.history} Stories by {self.author.name}'
+
+
+class Favorite(models.Model):
+    author = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name='favorite'
+    )
+    favorite = models.ForeignKey(
+        MusicInfo, on_delete=models.CASCADE, related_name='favorite'
+    )
+    is_favorite = models.BooleanField(default=False)
+
+    def __str__(self) -> str:
+        return f'{self.favorite} favorite by {self.author.name}'

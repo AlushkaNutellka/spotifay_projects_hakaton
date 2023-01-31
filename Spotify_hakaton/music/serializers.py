@@ -116,7 +116,21 @@ class BasketSerializer(serializers.ModelSerializer):
 
 
 class VipSerializer(serializers.ModelSerializer):
+    email = serializers.CharField()
     author = serializers.ReadOnlyField(source='author.name')
+
+    def validate(self, data):
+        email = data.get('email')
+        if not User.objects.filter(email=email).exists():
+            raise serializers.ValidationError('Пользователь не найден')
+        return data
+
+    def activate(self):
+        email = self.validated_data.get('email')
+        user = User.objects.get(email=email)
+        user.is_active = True
+        user.save()
+        '''============================='''
 
     class Meta:
         model = Vip
@@ -128,17 +142,17 @@ class VipSerializer(serializers.ModelSerializer):
         vip = Vip.objects.create(author=user, **validated_data)
         return vip
 
-
     def validate_product(self, money):
         if self.Meta.model.objects.filter(money=money).exists():
             raise serializers.ValidationError('У вас уже есть VIP')
         return money
 
-    def validate(self, data):
-        email = data.get('email')
-        if not User.objects.filter(email=email).exists():
-            raise serializers.ValidationError('Пользователь не найден')
-        return data
+    def delete(self, instance, validated_data):
+        instance.money = validated_data.get('money')
+        instance.save()
+        return validated_data.pop(instance.money)
+
+
 class HistorySerializer(serializers.ModelSerializer):
     class Meta:
         model = Basket
@@ -149,3 +163,18 @@ class HistorySerializer(serializers.ModelSerializer):
         user = request.user
         his = Basket.objects.create(**validated_data)
         return his
+
+    def validate_product(self, history):
+        if self.Meta.model.objects.filter(history=history).exists():
+            raise serializers.ValidationError('Уже сушествует в истории')
+        return history
+    #
+    # def update(self, instance, validated_data):
+    #     instance.history = validated_data.get('history')
+    #     instance.save()
+    #     return super().update(instance, validated_data)
+    #
+    # def delete(self, instance, validated_data):
+    #     instance.history = validated_data.get('history')
+    #     instance.save()
+    #     return validated_data.pop(instance.history)
