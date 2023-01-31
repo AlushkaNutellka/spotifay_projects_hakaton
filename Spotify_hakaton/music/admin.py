@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import MusicInfo, Rating, Like, Comment, Basket, Vip, Image, History
+from .models import MusicInfo, Rating, Like, Comment, Basket, Vip, Image, History, Favorite
 from django.utils.safestring import mark_safe
 
 
@@ -33,6 +33,14 @@ class LikeAdmin(admin.ModelAdmin):
     list_display = ('author', 'like', 'is_liked')
     search_fields = ['author', 'like']
     ordering = ['-is_liked']
+    list_filter = ['author']
+
+
+@admin.register(Favorite)
+class FavoriteAdmin(admin.ModelAdmin):
+    list_display = ('author', 'favorite', 'is_favorite')
+    search_fields = ['author', 'favorite']
+    ordering = ['-is_favorite']
     list_filter = ['author']
 
 

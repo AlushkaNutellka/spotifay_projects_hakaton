@@ -1,7 +1,7 @@
 import os.path
 from django.shortcuts import render, get_object_or_404
 from .permissions import IsAdminAuthPermission, IsAuthorPermission
-from .models import MusicInfo, Comment, Like, Rating, Basket, Vip, History
+from .models import MusicInfo, Comment, Like, Rating, Basket, Vip, History, Favorite
 from .serializers import PostSerializer, PostListSerializer, CommentSerializer, RatingSerializer, BasketSerializer, \
     VipSerializer, HistorySerializer
 import django_filters
@@ -88,6 +88,39 @@ class MusicViewSet(ModelViewSet):
 
         return super().get_permissions()
 
+    @action(['POST'], detail=True)
+    def favorite(self, request, pk=None):
+        post = self.get_object()
+        user = request.user
+        try:
+            favorite = Favorite.objects.get(post=post, author=user)
+            favorite.is_favorite = not favorite.is_favorite
+            favorite.save()
+            message = 'favorite' if favorite.is_favorite else ''
+            if not favorite.is_favorite:
+                favorite.delete()
+        except Favorite.DoesNotExist:
+            Favorite.objects.create(post=post, author=user, is_favorite=True)
+            message = 'favorite'
+        return Response(message, status=200)
+
+    def get_serializer_class(self):
+        if self.action == 'list':
+            return PostListSerializer
+        return self.serializer_class
+
+    def get_permissions(self):
+        if self.action in ['list', 'retrieve']:
+            self.permission_classes = [AllowAny]
+
+        elif self.action == 'create':
+            self.permission_classes = [IsAdminAuthPermission]
+
+        elif self.action in ['update', 'partial_update', 'destroy']:
+            self.permission_classes = [IsAuthorPermission]
+
+        return super().get_permissions()
+
 
 class CommentView(ModelViewSet):
     queryset = Comment.objects.all()
@@ -123,21 +156,6 @@ class CommentView(ModelViewSet):
         serializer.save(user=self.request.user)
 
 
-# class ImageView(ModelViewSet):
-#     queryset = Image.objects.all()
-#     serializer_class = ImageSerializer
-#
-#     def get_permissions(self):
-#         if self.action in ['list', 'retrieve']:
-#             self.permission_classes = [AllowAny]
-#
-#         elif self.action == 'create':
-#             self.permission_classes = [IsAdminAuthPermission]
-#
-#         elif self.action in ['update', 'partial_update', 'destroy']:
-#             self.permission_classes = [IsAuthorPermission]
-#
-#         return super().get_permissions()
 from django.http import HttpResponse, Http404
 
 

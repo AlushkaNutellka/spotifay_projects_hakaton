@@ -3294,3 +3294,123 @@ Not Found: /
 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2897
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2948
+"GET /admin/ HTTP/1.1" 200 11249
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /admin/socialaccount/socialaccount/ HTTP/1.1" 200 10721
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/filters.js HTTP/1.1" 304 0
+"GET /static/admin/img/search.svg HTTP/1.1" 304 0
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /admin/socialaccount/socialaccount/add/ HTTP/1.1" 200 12381
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"POST /admin/socialaccount/socialaccount/add/ HTTP/1.1" 200 12602
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/socialaccount/socialaccount/add/ HTTP/1.1" 200 12381
+"GET /admin/socialaccount/socialaccount/ HTTP/1.1" 200 10721
+"GET /admin/ HTTP/1.1" 200 11249
+"GET /admin/socialaccount/socialaccount/ HTTP/1.1" 200 10721
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/socialaccount/socialaccount/add/ HTTP/1.1" 200 12381
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/socialaccount/socialaccount/ HTTP/1.1" 200 10721
+"GET /admin/ HTTP/1.1" 200 11249
+"GET /admin/socialaccount/socialtoken/ HTTP/1.1" 200 11368
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/socialaccount/socialtoken/add/ HTTP/1.1" 200 13514
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19379
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+"GET /admin/socialaccount/socialtoken/ HTTP/1.1" 200 11368
+"GET /admin/ HTTP/1.1" 200 11249
+"GET /admin/ HTTP/1.1" 200 11249
+Not Found: /
+"GET / HTTP/1.1" 404 2897
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2897
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2215
+"GET /static/admin/css/login.css HTTP/1.1" 304 0
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 2383
+Watching for file changes with StatReloader
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 10381
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/music/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 10808
+"GET /admin/music/favorite/ HTTP/1.1" 200 11043
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/music/favorite/add/ HTTP/1.1" 200 13846
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+Internal Server Error: /admin/music/favorite/add/
+Traceback (most recent call last):
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1808, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/aliyar/Desktop/Hakaton_Spotify/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 924, in log_addition
+    object_repr=str(obj),
+  File "/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/music/models.py", line 87, in __str__
+    return f'{self.like} favorite by {self.author.name}'
+AttributeError: 'Favorite' object has no attribute 'like'
+"POST /admin/music/favorite/add/ HTTP/1.1" 500 122687
+/home/aliyar/Desktop/Hakaton_Spotify/hakaton_project/spotifay_projects_hakaton/Spotify_hakaton/music/models.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /admin/music/favorite/add/ HTTP/1.1" 302 0
+"GET /admin/music/favorite/ HTTP/1.1" 200 13131
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0

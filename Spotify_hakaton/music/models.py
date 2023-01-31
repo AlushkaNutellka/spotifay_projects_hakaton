@@ -74,6 +74,19 @@ class Like(models.Model):
         return f'{self.like} Liked by {self.author.name}'
 
 
+class Favorite(models.Model):
+    author = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name='favorite'
+    )
+    favorite = models.ForeignKey(
+        MusicInfo, on_delete=models.CASCADE, related_name='favorite'
+    )
+    is_favorite = models.BooleanField(default=False)
+
+    def __str__(self) -> str:
+        return f'{self.favorite} favorite by {self.author.name}'
+
+
 class Basket(models.Model):
     basket = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name='basket'
@@ -109,6 +122,8 @@ class Vip(models.Model):
         if not self.money:
             self.slug = slugify(self.title)
         super().save(*args, **kwargs)
+
+
 class History(models.Model):
     author = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name='stories'

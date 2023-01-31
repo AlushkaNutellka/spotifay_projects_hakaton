@@ -3,3 +3,4 @@ sudo apt-get install redis-server
 pip3 install redis
 sudo snap install docker
 python3 -m pip install channels_redis
+sudo apt-get install redis-server
