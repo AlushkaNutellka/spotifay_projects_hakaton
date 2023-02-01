@@ -35,3 +35,4 @@ pip install django-bootstrap3
 pip install -U Celery
 pip install "celery[librabbitmq]"
 pip install "celery[librabbitmq,redis,auth,msgpack]"
+pip install django-allauth==0.51.0
